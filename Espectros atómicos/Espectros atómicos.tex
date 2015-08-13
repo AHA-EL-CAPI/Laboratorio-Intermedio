@@ -1,0 +1,236 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4 distribution.
+%   Version 4.0 of REVTeX, August 2001
+%
+%   Copyright (c) 2001 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.0
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+\documentclass[prb,aps,twocolumn,preprintnumbers,amsmath,amssymb]{revtex4}
+%\documentclass[preprint,showpacs,preprintnumbers,amsmath,amssymb]{revtex4}
+
+% Some other (several out of many) possibilities
+%\documentclass[preprint,aps]{revtex4}
+%\documentclass[preprint,aps,draft]{revtex4}
+%\documentclass[prb,twocolumn,showpacs,preprintnumbers,amsmath,amssymb]{revtex4}% Physical Review B
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage[utf8]{inputenc}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+%\nofiles
+
+\begin{document}
+
+\title{Espectros atómicos}% Force line breaks with \\
+
+\author{Alejandro Hernández A.}%
+ \email{a.hernandez105@uniandes.edu.co}
+\author{Daniel Sánchez M.}%
+ \email{d.sanches462@uniandes.edu.co}
+\affiliation{%
+Departamento de Física\\ Universidad de los Andes, Bogotá, Colombia.\\
+}%
+
+
+\date{13 de agosto de 2015}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+Este informe presenta los datos obtenidos al medir con un espectrómetro de prima sencillo las líneas espectrales de los siguientes gases: hidrógeno, helio, mercurio, kryptón y argón. Conociendo  la separación entre estas líneas y aplicando el modelo de Bohr, se obtuvo un valor experimental para la constante de Rydberg, así como la diferencia de energía que corresponde a cada una de ellas.
+\\
+
+%\smallskip
+\noindent \textbf{Conceptos clave:} Espectrómetro, modelo de Bohr, líneas espectrales, constante de Rydberg.
+\end{abstract}
+                             
+\maketitle
+
+\section{\label{sec:level1}Introducción.}
+
+Una línea espectral es una línea brillante que resalta en un espectro uniforme y continuo, que resulta de la emisión o absorción de luz en un rango de frecuencias determinado. Este tipo de líneas son típicamente usadas para identificar átomos y moléculas a partir de sus líneas espectrales características.\\
+
+El modelo más sencillo que explica teóricamente la aparición de las líneas espectrales en el espectro atómico es el modelo de Bohr. Partiendo de la relación de de Broglie $\lambda = \frac{h}{mv}$ y de la cuantización del momento angular $L = n\frac{h}{2\pi} = n\hbar, \ n \in \mathbb{N}$, el modelo de Bohr predice que las enerías de los diversos niveles electrónicos del átomo de hidrógeno están dadas por
+
+\begin{equation}
+E_{n} = -\frac{Z^2 k^2 e^4 m_{e}}{2 \hbar^2 n^2} \approx -\frac{13.6 Z^2}{n^2}\    
+\end{equation}
+
+\noindent
+donde $n$ caracteriza el nivel de energía en consideración, $Z$ es el número atómico, $k$ es la constante de Coulomb, $e$ es la carga fundamental y $m_{e}$ la masa del electrón.
+\\
+Ahora bien, para $Z = 1$, la energí de un fotón emitido por un átomo de hidrógeno cuando un electrón salta de un nivel $n_{i}$ a un nivel $n_{f}$ es
+
+\begin{equation}
+\Delta E = E_{i} - E_{f} = \frac{k^2 e^4 m_{e}}{2 \hbar ^2} \left(\frac{1}{n_{f}^2}- \frac{1}{n_{i}^2} \right)  
+\end{equation}
+
+Finalmente, al tener en cuenta que la energía de un fotón es $\Delta E = \frac{hc}{\lambda}$, la longitud de onda para un fotón emitido en el salto $n_{i} \rightarrow n_{f}$ es
+
+\begin{equation}
+\frac{1}{\lambda} = \frac{k^2 e^4 m_{e}}{4 \pi \hbar ^3 c} \left(\frac{1}{n_{f}^2}- \frac{1}{n_{i}^2} \right)  
+\end{equation}
+
+La anterior ecuación se conoce como la fórmula de Rydberg y 
+\\
+
+\begin{equation}
+\label{rydberg}
+R = \frac{k^2 e^4 m_{e}}{4 \pi \hbar ^3 c}
+\end{equation}
+
+se denomina constante de Rydberg.
+
+\section{Montaje experimental}
+
+Con el fin de medir las líneas espectrales de los diversos gases proporcionados, se usó un espectrómetro de prisma sencillo.\\ 
+
+El montaje experimental y el nombre de cada elemento usado durante el laboratorio se muestra a continuación.\\
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{espectrometro}
+	\caption{Componentes de un espectrómetro de prima sencillo.}
+\end{figure}
+
+Los pasos seguidos durante el desarrollo del mencionado laboratorio fueron los siguientes:
+\\
+
+\begin{enumerate}
+	\item \textbf{Enfoque del espectrómetro:} Antes de poner el prisma en el centro del espectrómetro y de realizar las mediciones propiamente dichas se ajustó la altura del espectrómetro para una visualización cómoda, así como los focos del colimador y del telescopio, con el fin de tener una visión lo más clara posible de las líneas espectrales.
+	
+	\item \textbf{Calibración del espectrómetro:} Tomando como punto de partida el tubo espectral que contenía al helio, se ubicó el prisma sobre la base giratoria y se midieron, con ayuda de una reglilla proyectada, las posiciones de las líneas del espectro de este gas. Finalmente, mediante una curva de la longitud de onda asociada a cada línea de acuerdo a su color vs la posición medida de la línea, se obtuvo una curva de calibración para el espectrómetro.
+	
+	\item \textbf{Obtención de la constante de Rydberg:} Tras cambiar el tuvo espectral de helio por el de hidrógeno  y usando los resultados de la curva de calibración y el modelo de Bohr, se determinó un valor experimental para la constante de Rydberg, cuyo valor teórico esta dado por \eqref{rydberg}.
+	
+	\item \textbf{Mediciones para lso demás gases:} Repitiendo el proceso de los dos pasos anteriores y cambiando el tuvo espectral observado, se midieron las líneas espectrales de los demás gases.
+\end{enumerate}
+
+\section{Resultados y análisis}
+
+Los resultados de las mediciones de las múltiples líneas espectrales de los diversos gases se muestran en las siguientes tablas.\\
+
+En lo que respecta a la calibración del espectrómetro con helio, los datos fueron los siguientes:
+
+\begin{table}[h!]
+	\caption{\label{Tabla 1}Espectro observado para el helio.}
+	\begin{ruledtabular}
+		\begin{tabular}{cc}
+			Color de la línea&Posición(nm)\\
+			\hline
+			Rojo & 8.4\\
+			Amarillo & 9.6\\
+			Verde & 13.0\\
+			Azul & 13.2\\
+			Azul tenue & 14.5\\
+			Morado & 16.0\\
+		\end{tabular}
+	\end{ruledtabular}
+\end{table}
+\
+\\
+\indent
+Identificando la longitud de onda de cada una de las líneas mediante su color, se graficaron estos datos contra la posición medida de las mismas. A partir de \ref{fig 2} (OJO, NO SÉ CÓMO REFERENCIARLA)se observa una aparente relación lineal entre la longitud de onda y la posición medida de la línea, razón por la cual se hizo una regresión lineal sobre los datos. 
+\\
+
+El resultado de la regresión fue el siguiente:
+
+\begin{equation}
+\label{regresion}
+\lambda = -30.228x + 895.376
+\end{equation}
+\noindent
+donde x es la posición medida de la línea. El error estándar $s = 3.821$ y correlación $r^2 = 0.939$ justifican la relación lineal propuesta entre los datos. Dado lo anterior, la curva de calibración queda determinada por \eqref{regresion}
+\begin{figure}[h!]
+	\label{fig 2}
+	\centering
+	\includegraphics[width=0.5\textwidth]{regresion}
+	\caption{Datos expermimentales para el helio.}
+\end{figure}
+
+AQUÍ HAY QUE DETERMINAR LA CONSTANTE DE RYDBERG, PERO NECESITO SU AYUDA.
+\begin{table}[h!]
+\caption{\label{Tabla 2}Espectro observado para el hidrógeno.}
+\begin{ruledtabular}
+\begin{tabular}{cc}
+Color de la línea&Posición(nm)\\
+\hline
+Rojo & 8.4\\
+Verde & 13.7\\
+Morado & 17.0\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+
+
+\begin{table}[h!]
+\caption{\label{Tabla 3}Espectro observado para el mercurio.}
+\begin{ruledtabular}
+\begin{tabular}{cc}
+Color de la línea&Posición(nm)\\
+\hline
+Amarillo & 10.2\\
+Verde & 11.3\\
+Verde tenue & 13.4\\
+Morado & 16.9\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{table}[h!]
+\caption{\label{Tabla 4}Espectro observado para el argón.}
+\begin{ruledtabular}
+\begin{tabular}{cc}
+Color de la línea&Posición(nm)\\
+\hline
+Rojo & 6.8\\
+Naranja & 8.0\\
+Verde & 9.5\\
+Verde tenue & 10.9\\
+Azul & 12.5\\
+Morado & 16.0\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{table}[h!]
+\caption{\label{Tabla 5}Espectro observado para el kriptón.}
+\begin{ruledtabular}
+\begin{tabular}{cc}
+Color de la línea&Posición(nm)\\
+\hline
+Rojo & 6.9\\
+Naranja & 8.3\\
+Verde & 9.2\\
+Verde tenue & 10.5\\
+Azul & 12.0\\
+Morado & 14.9\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+HAY QUE HABLAR UN POCO SOBRE LOS OTROS DATOS, Y MOSTRAR LAS OTRAS CONSTANTES DE RYDBERG.
+HAY QUE HABLAR TAMBIÉN DE LSO PROBLEMAS ENCONTRADOS DURANTE EL EXPERIMENTO.
+
+\section{Conclusiones}
+
+NECESITO SU AYUDA PARA HACER ESTO
+
+\section{Bibliografía}
+\end{document}
+%
+% ****** End of file apssamp.tex ******
