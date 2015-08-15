@@ -30,7 +30,7 @@
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 \usepackage[utf8]{inputenc}
-\renewcommand{\thefootnote}{\arabic{footnote}}
+\usepackage{url}
 %\nofiles
 
 \begin{document}
@@ -50,7 +50,7 @@ Departamento de Física\\ Universidad de los Andes, Bogotá, Colombia.\\
              %  but any date may be explicitly specified
 
 \begin{abstract}
-Este informe presenta los datos obtenidos al medir con un espectrómetro de prima sencillo las líneas espectrales de los siguientes gases: hidrógeno, helio, mercurio, kryptón y argón. Conociendo  la separación entre estas líneas y aplicando el modelo de Bohr, se obtuvo un valor experimental para la constante de Rydberg, así como la diferencia de energía que corresponde a cada una de ellas.
+Este informe presenta los datos obtenidos al medir con un espectrómetro de prima sencillo las líneas espectrales de los siguientes gases: hidrógeno, helio, mercurio, kryptón y argón. Conociendo  la separación entre estas líneas y aplicando el modelo de Bohr, se obtuvo un valor experimental para la constante de Rydberg, a saber, $R_{exp} = (10967597.395 \pm 262058.04)\ m^{-1}$ con un error porcentual de $E\% = 0.055\%$.
 \\
 
 %\smallskip
@@ -63,7 +63,7 @@ Este informe presenta los datos obtenidos al medir con un espectrómetro de prim
 
 Una línea espectral es una línea brillante que resalta en un espectro uniforme y continuo, que resulta de la emisión o absorción de luz en un rango de frecuencias determinado. Este tipo de líneas son típicamente usadas para identificar átomos y moléculas a partir de sus líneas espectrales características.\\
 
-El modelo más sencillo que explica teóricamente la aparición de las líneas espectrales en el espectro atómico es el modelo de Bohr. Partiendo de la relación de de Broglie $\lambda = \frac{h}{mv}$ y de la cuantización del momento angular $L = n\frac{h}{2\pi} = n\hbar, \ n \in \mathbb{N}$, el modelo de Bohr predice que las enerías de los diversos niveles electrónicos del átomo de hidrógeno están dadas por
+El modelo más sencillo que explica teóricamente la aparición de las líneas espectrales en el espectro atómico es el modelo de Bohr \cite{eisberg}. Partiendo de la relación de de Broglie $\lambda = \frac{h}{mv}$ y de la cuantización del momento angular $L = n\frac{h}{2\pi} = n\hbar, \ n \in \mathbb{N}$, el modelo de Bohr predice que las enerías de los diversos niveles electrónicos del átomo de hidrógeno están dadas por
 
 \begin{equation}
 E_{n} = -\frac{Z^2 k^2 e^4 m_{e}}{2 \hbar^2 n^2} \approx -\frac{13.6 Z^2}{n^2}\    
@@ -72,7 +72,7 @@ E_{n} = -\frac{Z^2 k^2 e^4 m_{e}}{2 \hbar^2 n^2} \approx -\frac{13.6 Z^2}{n^2}\
 \noindent
 donde $n$ caracteriza el nivel de energía en consideración, $Z$ es el número atómico, $k$ es la constante de Coulomb, $e$ es la carga fundamental y $m_{e}$ la masa del electrón.
 \\
-Ahora bien, para $Z = 1$, la energí de un fotón emitido por un átomo de hidrógeno cuando un electrón salta de un nivel $n_{i}$ a un nivel $n_{f}$ es
+Ahora bien, para $Z = 1$, la energía de un fotón emitido por un átomo de hidrógeno cuando un electrón salta de un nivel $n_{i}$ a un nivel $n_{f}$ es
 
 \begin{equation}
 \Delta E = E_{i} - E_{f} = \frac{k^2 e^4 m_{e}}{2 \hbar ^2} \left(\frac{1}{n_{f}^2}- \frac{1}{n_{i}^2} \right)  
@@ -81,6 +81,7 @@ Ahora bien, para $Z = 1$, la energí de un fotón emitido por un átomo de hidr�
 Finalmente, al tener en cuenta que la energía de un fotón es $\Delta E = \frac{hc}{\lambda}$, la longitud de onda para un fotón emitido en el salto $n_{i} \rightarrow n_{f}$ es
 
 \begin{equation}
+\label{balmer}
 \frac{1}{\lambda} = \frac{k^2 e^4 m_{e}}{4 \pi \hbar ^3 c} \left(\frac{1}{n_{f}^2}- \frac{1}{n_{i}^2} \right)  
 \end{equation}
 
@@ -92,8 +93,9 @@ La anterior ecuación se conoce como la fórmula de Rydberg y
 R = \frac{k^2 e^4 m_{e}}{4 \pi \hbar ^3 c}
 \end{equation}
 
-se denomina constante de Rydberg.
+se denomina constante de Rydberg.\\
 
+La denominada serie de Balmer para el hidrógeno se obtiene de \eqref{balmer} fijando $n_{i} = 2$ y $n_{f} = 3,4,5 \dots$.
 \section{Montaje experimental}
 
 Con el fin de medir las líneas espectrales de los diversos gases proporcionados, se usó un espectrómetro de prisma sencillo.\\ 
@@ -128,109 +130,171 @@ En lo que respecta a la calibración del espectrómetro con helio, los datos fue
 \begin{table}[h!]
 	\caption{\label{Tabla 1}Espectro observado para el helio.}
 	\begin{ruledtabular}
-		\begin{tabular}{cc}
-			Color de la línea&Posición(nm)\\
+		\begin{tabular}{ccc}
+			Color&$\lambda$ (nm)&Posición(adimensional)\\
 			\hline
-			Rojo & 8.4\\
-			Amarillo & 9.6\\
-			Verde & 13.0\\
-			Azul & 13.2\\
-			Azul tenue & 14.5\\
-			Morado & 16.0\\
+			Rojo & 667.615 & 8.4\\
+			Amarillo & 587.562& 9.6\\
+			Verde & 501.567 & 13.0\\
+			Azul & 471.314 & 13.2\\
+			Azul & 447.148 & 14.5\\
+			Morado & 438.793 & 16.0\\
 		\end{tabular}
 	\end{ruledtabular}
 \end{table}
-\
-\\
+
 \indent
-Identificando la longitud de onda de cada una de las líneas mediante su color, se graficaron estos datos contra la posición medida de las mismas. A partir de \ref{fig 2} (OJO, NO SÉ CÓMO REFERENCIARLA)se observa una aparente relación lineal entre la longitud de onda y la posición medida de la línea, razón por la cual se hizo una regresión lineal sobre los datos. 
+Donde las longitudes de onda $\lambda$ de cada una de las líneas fueron obtenidas mediante su color \footnote{Espectros obtenidos de la página del NIST (National Institute of Standards and Technology)}. Al graficar  estos datos contra la posición medida de las mismas, en la FIG. \ref{fig:regresion} se observa una aparente relación lineal entre la longitud de onda y la posición medida de la línea, razón por la cual se hizo una regresión lineal sobre los datos. 
 \\
 
 El resultado de la regresión fue el siguiente:
 
 \begin{equation}
 \label{regresion}
-\lambda = -30.228x + 895.376
+\lambda = (-30.228\ nm)x + (895.376\ nm)
 \end{equation}
 \noindent
 donde x es la posición medida de la línea. El error estándar $s = 3.821$ y correlación $r^2 = 0.939$ justifican la relación lineal propuesta entre los datos. Dado lo anterior, la curva de calibración queda determinada por \eqref{regresion}
 \begin{figure}[h!]
-	\label{fig 2}
 	\centering
 	\includegraphics[width=0.5\textwidth]{regresion}
-	\caption{Datos expermimentales para el helio.}
+	\caption{Datos expermimentales para el helio.\label{fig:regresion}}
 \end{figure}
 
-AQUÍ HAY QUE DETERMINAR LA CONSTANTE DE RYDBERG, PERO NECESITO SU AYUDA.
+Ahora bien, con el fin de determinar el valor experimental de la constante de Rydberg es necesario conocer los niveles $n$ entre los cuales se realiza el salto y para esto usamos la serie de Balmer dada por \eqref{balmer}. En este modelo, el nivel\\
+
+Para el caso particular de las líneas observadas para el hidrógeno, los niveles son 
+
 \begin{table}[h!]
-\caption{\label{Tabla 2}Espectro observado para el hidrógeno.}
+\caption{\label{Tabla 6}Niveles usados para el hidrógeno.}
 \begin{ruledtabular}
 \begin{tabular}{cc}
-Color de la línea&Posición(nm)\\
+Color&$n_{i}$\\
 \hline
-Rojo & 8.4\\
-Verde & 13.7\\
-Morado & 17.0\\
+Rojo &3\\
+Verde &4\\
+Morado &5\\
 \end{tabular}
 \end{ruledtabular}
 \end{table}
 
+Y al hacer nuevamente una regresión con base en \eqref{balmer} se obtiene lo siguiente
 
+\begin{equation}
+\frac{1}{\lambda} = (10967597.395\ m^{-1})x + (32266.600\ m^{-1})
+\end{equation}
+
+\noindent
+con error estándar $s = 262058.04$ y parámetro de correlación $r^2 = 0.999$. Con lo anterior, el valor obtenido para la constante de Rydberg fue
+
+\begin{equation}
+R_{exp} = (10967597.395 \pm 262058.049)\ m^{-1}
+\end{equation}
+
+Teniendo en cuenta que el valor teórico \footnote{Valor obtenido de https://en.wikipedia.org/wiki/Rydberg\_Constant}  de esta constante es $R_{teo}  = 10973731.685\ m^{-1}$ , el error porcentual de la medida es $E\% = 0.055\%$, motivo por el cual podemos afirmar que las medidas experimentales fueron llevadas a cabo de una buena manera.\\
+
+Para los demás gases, los datos medidos se muestran a continuación.
+
+\begin{table}[h!]
+\caption{\label{Tabla 2}Espectro observado para el hidrógeno.}
+\begin{ruledtabular}
+\begin{tabular}{ccc}
+Color&$\lambda$ (nm)&Posición(adimensional)\\
+\hline
+Rojo & 656.112 & 8.4\\
+Verde & 486.008 & 13.7\\
+Morado & 433.936 & 15.5\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{regresion_hidrogeno}
+	\caption{Datos expermimentales para el hidrógeno.}
+\end{figure}
 
 \begin{table}[h!]
 \caption{\label{Tabla 3}Espectro observado para el mercurio.}
 \begin{ruledtabular}
-\begin{tabular}{cc}
-Color de la línea&Posición(nm)\\
+\begin{tabular}{ccc}
+Color&$\lambda$ (nm)&Posición(adimensional)\\
 \hline
-Amarillo & 10.2\\
-Verde & 11.3\\
-Verde tenue & 13.4\\
-Morado & 16.9\\
+Amarillo & 579.065 & 10.2\\
+Verde & 546.074 & 11.3\\
+Morado & 435.835 & 16.9\\
 \end{tabular}
 \end{ruledtabular}
 \end{table}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth,height=0.2\textheight]{regresion_mercurio}
+	\caption{Datos expermimentales para el mercurio.}
+\end{figure}
 
 \begin{table}[h!]
 \caption{\label{Tabla 4}Espectro observado para el argón.}
 \begin{ruledtabular}
-\begin{tabular}{cc}
-Color de la línea&Posición(nm)\\
+\begin{tabular}{ccc}
+Color&$\lambda$ (nm)&Posición(adimensional)\\
 \hline
-Rojo & 6.8\\
-Naranja & 8.0\\
-Verde & 9.5\\
-Verde tenue & 10.9\\
-Azul & 12.5\\
-Morado & 16.0\\
+Rojo & 750.386 & 6.8\\
+Naranja & 696.543 & 8.0\\
+Verde & 617.227 & 9.5\\
+Azul & 487.986 & 12.5\\
+Morado & 427.752 & 16.0\\
 \end{tabular}
 \end{ruledtabular}
 \end{table}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{regresion_argon}
+	\caption{Datos expermimentales para el argón.}
+\end{figure}
 
 \begin{table}[h!]
 \caption{\label{Tabla 5}Espectro observado para el kriptón.}
 \begin{ruledtabular}
-\begin{tabular}{cc}
-Color de la línea&Posición(nm)\\
+\begin{tabular}{ccc}
+Color&$\lambda$ (nm)&Posición(adimensional)\\
 \hline
-Rojo & 6.9\\
-Naranja & 8.3\\
-Verde & 9.2\\
-Verde tenue & 10.5\\
-Azul & 12.0\\
-Morado & 14.9\\
+Rojo & 728.978 & 6.9\\
+Naranja & 642.018 & 8.3\\
+Verde & 587.091 & 10.5\\
+Azul & 533.341 & 12.0\\
+Morado & 435.547 & 14.9\\
 \end{tabular}
 \end{ruledtabular}
 \end{table}
 
-HAY QUE HABLAR UN POCO SOBRE LOS OTROS DATOS, Y MOSTRAR LAS OTRAS CONSTANTES DE RYDBERG.
-HAY QUE HABLAR TAMBIÉN DE LSO PROBLEMAS ENCONTRADOS DURANTE EL EXPERIMENTO.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{regresion_kripton}
+	\caption{Datos expermimentales para el kriptón.}
+\end{figure}
+
+Cabe aclarar que en las gráficas anteriores, la línea correspondiente a la regresión hace alusión a la curva de calibración hecha para el helio. Teniendo en cuenta lo anterior, podemos afirmar que los datos medidos se ajustan bien a la mencionada curva de calibración.
 
 \section{Conclusiones}
 
-NECESITO SU AYUDA PARA HACER ESTO
+\begin{itemize}
 
-\section{Bibliografía}
+	\item La curva de calibración obtenida para el helio, se ajusta bien a las líneas espectrales obervadas para los demás gases, tal y como se muestra en las gráficas de la sección anterior.
+	
+	\item El valor experimental obtenido para la constante de Rydberg $R_{exp} = (10967597.395 \pm 262058.049)\ m^{-1}$ es muy exacto dado a que el error porcentual de la medida fue de $E\% = 0.055\%$.
+		
+	\item La observación realizada de las líneas espectrales perimten concluir la validez del modelo de Bohr (o la serie de Balmer) para explicar el espectro de emisión de átomos con un solo electrón, y al tener la hipótesis de cuantización del momento angular, los resultados experimentales obtenidos permiten constatar unad las primeras ideas acerca de cuantización en física.
+	
+	\item Si bien se obtuvieron buenos resultados, es importante resaltar que tanto la intensidad de las líneas espectrales de los diversos gases, como el grosor de las mismas, da pie para pensar acerca de la realización de medidas con instrumentos de mayor resolución con el fin de obtener mediciones más exactas de la posición de las mismas.
+	
+\end{itemize}
+
+\begin{thebibliography}{99}
+\bibitem{eisberg} R. Eisberg, {\it Quantum Physics of Atoms, Molecules, Solids, Nuclei and Particles}{John Wiley \& Sons, USA, 1985}.\\
+\end{thebibliography}
+
 \end{document}
 %
 % ****** End of file apssamp.tex ******
