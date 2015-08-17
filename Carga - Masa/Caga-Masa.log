@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  17 AUG 2015 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  17 AUG 2015 12:04
 entering extended mode
-**"Espectros atómicos.tex"
-("Espectros atómicos.tex"
+**Caga-Masa.tex
+(Caga-Masa.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\revtex4\revtex4.cls"
@@ -409,7 +409,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("Espectros atómicos.aux")
+(Caga-Masa.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
@@ -440,208 +440,259 @@ Class revtex4 Info: multicol was not loaded (OK!) on input line 36.
 \makeMPintoPDFobject=\count111
 \everyMPtoPDFconversion=\toks27
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
   
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Overfull \hbox (19.12811pt too wide) detected at line 101
+\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 []IR[] []
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 103--105
+\OT1/cmr/m/n/10 donde $\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10
+ :\OT1/cmr/m/n/10 257 \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 10[][]$ es la per-me-a
+bil-i-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-<espectrometro.jpg, id=1, 803.0pt x 602.25pt>
-File: espectrometro.jpg Graphic file (type jpg)
- <use espectrometro.jpg>
-Package pdftex.def Info: espectrometro.jpg used on input line 107.
-(pdftex.def)             Requested size: 255.0pt x 191.2444pt.
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<carga-masa.jpg, id=24, 4143.48pt x 2330.7075pt>
+File: carga-masa.jpg Graphic file (type jpg)
+ <use carga-masa.jpg>
+Package pdftex.def Info: carga-masa.jpg used on input line 125.
+(pdftex.def)             Requested size: 356.99844pt x 200.79257pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 107--108
+<helmholtz-coils.jpg, id=25, 307.1475pt x 165.61874pt>
+File: helmholtz-coils.jpg Graphic file (type jpg)
+
+<use helmholtz-coils.jpg>
+Package pdftex.def Info: helmholtz-coils.jpg used on input line 134.
+(pdftex.def)             Requested size: 203.99744pt x 67.2041pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<narrow-beam-tube.jpg, id=26, 218.8175pt x 231.86626pt>
+File: narrow-beam-tube.jpg Graphic file (type jpg)
+
+<use narrow-beam-tube.jpg>
+Package pdftex.def Info: narrow-beam-tube.jpg used on input line 141.
+(pdftex.def)             Requested size: 255.00375pt x 168.00142pt.
+
+Overfull \hbox (9.00375pt too wide) in paragraph at lines 141--142
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./espectrometro.jpg>]
-Underfull \hbox (badness 2469) in paragraph at lines 117--118
- []\OT1/cmr/bx/n/10 Calibracion del es-pectrometro: \OT1/cmr/m/n/10 Tomando
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 119--120
- \OT1/cmr/m/n/10 cam-biar el tuvo es-pec-tral de he-lio por el de
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+[2 <./carga-masa.jpg> <./helmholtz-coils.jpg> <./narrow-beam-tube.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+<carga-masa-reg.jpg, id=30, 1084.05pt x 722.7pt>
+File: carga-masa-reg.jpg Graphic file (type jpg)
+ <use carga-masa-reg.jpg>
+Package pdftex.def Info: carga-masa-reg.jpg used on input line 196.
+(pdftex.def)             Requested size: 280.50156pt x 186.9933pt.
+
+Overfull \hbox (34.50156pt too wide) in paragraph at lines 196--197
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Overfull \hbox (15.76627pt too wide) in alignment at lines 217--224
+ [] [] [] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \@endnoteout=\write3
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--149
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
-<regresion.jpg, id=23, 1084.05pt x 722.7pt>
-File: regresion.jpg Graphic file (type jpg)
- <use regresion.jpg>
-Package pdftex.def Info: regresion.jpg used on input line 160.
-(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 160--161
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-[2 <./regresion.jpg>] <regresion_hidrogeno.jpg, id=28, 1084.05pt x 722.7pt>
-File: regresion_hidrogeno.jpg Graphic file (type jpg)
-
-<use regresion_hidrogeno.jpg>
-Package pdftex.def Info: regresion_hidrogeno.jpg used on input line 213.
-(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 213--214
- [][] 
- []
-
-<regresion_mercurio.jpg, id=29, 1084.05pt x 722.7pt>
-File: regresion_mercurio.jpg Graphic file (type jpg)
-
-<use regresion_mercurio.jpg>
-Package pdftex.def Info: regresion_mercurio.jpg used on input line 232.
-(pdftex.def)             Requested size: 254.99991pt x 134.39214pt.
-
-Overfull \hbox (8.99991pt too wide) in paragraph at lines 232--233
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<regresion_argon.jpg, id=30, 1084.05pt x 722.7pt>
-File: regresion_argon.jpg Graphic file (type jpg)
- <use regresion_argon.jpg>
-Package pdftex.def Info: regresion_argon.jpg used on input line 253.
-(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 253--254
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<regresion_kripton.jpg, id=31, 1084.05pt x 722.7pt>
-File: regresion_kripton.jpg Graphic file (type jpg)
-
-<use regresion_kripton.jpg>
-Package pdftex.def Info: regresion_kripton.jpg used on input line 274.
-(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 274--275
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3 <./regresion_hidrogeno.jpg> <./regresion_mercurio.jpg> <./regresion_argon.jp
-g> <./regresion_kripton.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 284.
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 239.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 284.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 239.
 
-("Espectros atómicos.end"
-Underfull \hbox (badness 10000) in paragraph at lines 295--1
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+[3 <./carga-masa-reg.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 248--249
+\OT1/cmr/m/n/10 peque~nas varia-ciones de este angulo pudo pro-ducir
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 248--249
+\OT1/cmr/m/n/10 desvia-ciones que, aunque minusculas, vale la pena
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
  
  []
 
-)
-Overfull \hbox (33.28293pt too wide) in paragraph at lines 2--296
- []\OT1/cmr/m/n/9 Valor obtenido de https://en.wikipedia.org/wiki/Rydberg[]Cons
-tant
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+ 
  []
 
-[4] ("Espectros atómicos.aux") ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+ 
+ []
+
+(Caga-Masa.end
+Underfull \hbox (badness 10000) in paragraph at lines 272--1
+ 
+ []
+
+) [4] (Caga-Masa.aux) ) 
 Here is how much of TeX's memory you used:
- 3983 strings out of 493673
- 49098 string characters out of 3141542
- 123302 words of memory out of 3000000
- 7270 multiletter control sequences out of 15000+200000
- 14161 words of font info for 53 fonts, out of 3000000 for 9000
+ 4007 strings out of 493673
+ 49104 string characters out of 3141542
+ 139634 words of memory out of 3000000
+ 7287 multiletter control sequences out of 15000+200000
+ 18834 words of font info for 70 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,8n,28p,529b,271s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Espectros atómicos.pdf" (4 pages, 750963 bytes).
+ 34i,9n,28p,1014b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Caga-Masa.pdf (4 pages, 3357746 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
