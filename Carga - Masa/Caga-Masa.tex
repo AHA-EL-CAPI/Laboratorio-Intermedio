@@ -30,7 +30,7 @@
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 \usepackage[utf8]{inputenc}
-\usepackage{url}
+\newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
 %\nofiles
 
 \begin{document}
@@ -97,7 +97,9 @@ Reemplazando \eqref{velocidad} en \eqref{cons. ener.} se obtiene:
 Ahora bien, para determinar $B$ es preciso usar la ley de Biot-Savart. El campo magnético $B_{z}$ sobre e eje z de un arreglo simétrico de dos embobinados de radio $R$, separados una distancia $a$, por los cuales circula una corriente $I$ es:
 
 \begin{equation*}
+\Scale[0.98]{
 B_{z} = \frac{\mu_{0}IR^2}{2}\left[ \left( R^2 + \left(z - \frac{a}{2}\right)^2 \right)^{-3/2} + \left( R^2 + \left(z + \frac{a}{2}\right)^2 \right)^{-3/2} \right]
+}
 \end{equation*}
 
 \noindent
@@ -116,7 +118,7 @@ Con el fin de medir la carga específica del electrón, se utilizó un \textit{n
 
 Para la alimentación del \textit{narrow beam tube} se usó una fuente de voltaje de capacidad máxima $300V$, que permitía fuertes variaciones en la energía cinética del haz de electrones. En contraste con lo anterior, para la bobina de Helmholtz se utilizó una fuente de capacidad máxima $18V$, que generaba corrientes entre $2A$ y $4A$, lo suficiente grandes para que el campo magnético afecte visiblemente la trayectoria del haz.\\
 
-El montaje experimental usado durante la práctica se muestra en la figura \ref{fig:montaje}.
+El montaje experimental usado durante la práctica se muestra en la figura \ref{fig:montaje}.\\\\\\
 
 \begin{widetext}
 	
@@ -198,18 +200,7 @@ Identificando $\frac{(Br)^2}{2} \rightarrow x$ y $V \rightarrow y$, se puede ver
 	\label{fig:lineal}
 \end{figure}
 
-Una vez realizado esto, es posile calcular la incertidumbre en la medida como la incertidumbre obtenida en una regresión lineal, cuya ecuación es:
-
-\begin{equation}
-\sigma = \sigma_y \left(\frac{N \sum_{i=1}^{N} x^2 - ( \sum_{i=1}^{N} x)^2}{N} \right)^{-1/2}
-\end{equation}
-
-Donde:
-\begin{equation}
-\sigma_y = \sqrt{\frac{1}{N-2} \sum_{i=1}^{N}(y_i -b -mx_i)^2}
-\end{equation}
-
-Teniendo en cuenta que $b$ y $m$ son los parámetros de la regresión lineal ( $y = mx + b$). Con lo anterior, los datos de las regresiones lineales se muestran en la Tabla \ref{Tabla 2}. \\\\ 
+Los datos de las regresiones lineales se muestran en la Tabla \ref{Tabla 2}. \\\\ 
 
 \begin{table}[h!]
 	\caption{\label{Tabla 2}Regresiones lineales para los distintos radios.}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  17 AUG 2015 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  17 AUG 2015 16:02
 entering extended mode
 **Caga-Masa.tex
 (Caga-Masa.tex
@@ -464,24 +464,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--73
  []
 
 
-Overfull \hbox (34.02814pt too wide) detected at line 101
-\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = [] []
+Overfull \hbox (9.65857pt too wide) detected at line 103
+[]
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 103--105
+Underfull \hbox (badness 1867) in paragraph at lines 105--107
 \OT1/cmr/m/n/10 donde $\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10
  :\OT1/cmr/m/n/10 257 \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 10[][]$ es la per-me-a
 bil-i-dad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
@@ -490,18 +485,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 <carga-masa.jpg, id=24, 4143.48pt x 2330.7075pt>
 File: carga-masa.jpg Graphic file (type jpg)
  <use carga-masa.jpg>
-Package pdftex.def Info: carga-masa.jpg used on input line 125.
+Package pdftex.def Info: carga-masa.jpg used on input line 127.
 (pdftex.def)             Requested size: 356.99844pt x 200.79257pt.
 
 <helmholtz-coils.jpg, id=25, 307.1475pt x 165.61874pt>
 File: helmholtz-coils.jpg Graphic file (type jpg)
 
 <use helmholtz-coils.jpg>
-Package pdftex.def Info: helmholtz-coils.jpg used on input line 134.
+Package pdftex.def Info: helmholtz-coils.jpg used on input line 136.
 (pdftex.def)             Requested size: 203.99744pt x 67.2041pt.
 
 
@@ -511,10 +526,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: narrow-beam-tube.jpg Graphic file (type jpg)
 
 <use narrow-beam-tube.jpg>
-Package pdftex.def Info: narrow-beam-tube.jpg used on input line 141.
+Package pdftex.def Info: narrow-beam-tube.jpg used on input line 143.
 (pdftex.def)             Requested size: 255.00375pt x 168.00142pt.
 
-Overfull \hbox (9.00375pt too wide) in paragraph at lines 141--142
+Overfull \hbox (9.00375pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
@@ -522,57 +537,57 @@ Overfull \hbox (9.00375pt too wide) in paragraph at lines 141--142
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 [2 <./carga-masa.jpg> <./helmholtz-coils.jpg> <./narrow-beam-tube.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
 <carga-masa-reg.jpg, id=30, 1084.05pt x 722.7pt>
 File: carga-masa-reg.jpg Graphic file (type jpg)
  <use carga-masa-reg.jpg>
-Package pdftex.def Info: carga-masa-reg.jpg used on input line 196.
+Package pdftex.def Info: carga-masa-reg.jpg used on input line 198.
 (pdftex.def)             Requested size: 280.50156pt x 186.9933pt.
 
-Overfull \hbox (34.50156pt too wide) in paragraph at lines 196--197
+Overfull \hbox (34.50156pt too wide) in paragraph at lines 198--199
  [][] 
  []
 
@@ -580,91 +595,88 @@ Overfull \hbox (34.50156pt too wide) in paragraph at lines 196--197
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Overfull \hbox (15.76627pt too wide) in alignment at lines 217--224
+Overfull \hbox (15.76627pt too wide) in alignment at lines 208--215
  [] [] [] [] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 \@endnoteout=\write3
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 239.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 230.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 239.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 230.
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[3 <./carga-masa-reg.jpg>]
+Underfull \hbox (badness 1394) in paragraph at lines 240--241
+\OT1/cmr/m/n/10 peque~nas varia-ciones de este angulo pudo pro-ducir
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 240--241
+\OT1/cmr/m/n/10 desvia-ciones que, aunque minusculas, vale la pena
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
-[3 <./carga-masa-reg.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 249--250
-\OT1/cmr/m/n/10 peque~nas varia-ciones de este angulo pudo pro-ducir
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 249--250
-\OT1/cmr/m/n/10 desvia-ciones que, aunque minusculas, vale la pena
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
  
  []
 
 (Caga-Masa.end
-Underfull \hbox (badness 10000) in paragraph at lines 273--1
+Underfull \hbox (badness 10000) in paragraph at lines 264--1
  
  []
 
 ) [4] (Caga-Masa.aux) ) 
 Here is how much of TeX's memory you used:
  4009 strings out of 493673
- 49125 string characters out of 3141542
- 143650 words of memory out of 3000000
+ 49115 string characters out of 3141542
+ 137083 words of memory out of 3000000
  7289 multiletter control sequences out of 15000+200000
  18834 words of font info for 70 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -690,7 +702,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Caga-Masa.pdf (4 pages, 3358971 bytes).
+Output written on Caga-Masa.pdf (4 pages, 3356834 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
