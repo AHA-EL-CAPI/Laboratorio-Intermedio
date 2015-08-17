@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  17 AUG 2015 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  17 AUG 2015 17:39
 entering extended mode
 **Caga-Masa.tex
 (Caga-Masa.tex
@@ -627,7 +627,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
-
+[3 <./carga-masa-reg.jpg>]
 Underfull \hbox (badness 1117) in paragraph at lines 224--225
 \OT1/cmr/m/n/10 que el de los cam-pos maneticos gen-er-a-dos por las
  []
@@ -637,7 +637,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-[3 <./carga-masa-reg.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
@@ -664,13 +664,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--1
 
 ) [4] (Caga-Masa.aux) ) 
 Here is how much of TeX's memory you used:
- 4007 strings out of 493673
- 49096 string characters out of 3141542
+ 4008 strings out of 493673
+ 49106 string characters out of 3141542
  128350 words of memory out of 3000000
- 7287 multiletter control sequences out of 15000+200000
+ 7288 multiletter control sequences out of 15000+200000
  18834 words of font info for 70 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,8n,28p,1017b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,8n,28p,1025b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
@@ -692,7 +692,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Caga-Masa.pdf (4 pages, 3367977 bytes).
+Output written on Caga-Masa.pdf (4 pages, 3368526 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
