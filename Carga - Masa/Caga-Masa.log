@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  17 AUG 2015 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  17 AUG 2015 15:46
 entering extended mode
 **Caga-Masa.tex
 (Caga-Masa.tex
@@ -464,8 +464,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--73
  []
 
 
-Overfull \hbox (19.12811pt too wide) detected at line 101
-\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 []IR[] []
+Overfull \hbox (34.02814pt too wide) detected at line 101
+\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = [] []
  []
 
 
@@ -621,32 +621,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--247
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 248--249
+Underfull \hbox (badness 1394) in paragraph at lines 249--250
 \OT1/cmr/m/n/10 peque~nas varia-ciones de este angulo pudo pro-ducir
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 248--249
+Underfull \hbox (badness 1571) in paragraph at lines 249--250
 \OT1/cmr/m/n/10 desvia-ciones que, aunque minusculas, vale la pena
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
  
  []
 
@@ -655,17 +650,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--272
  
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+ 
+ []
+
 (Caga-Masa.end
-Underfull \hbox (badness 10000) in paragraph at lines 272--1
+Underfull \hbox (badness 10000) in paragraph at lines 273--1
  
  []
 
 ) [4] (Caga-Masa.aux) ) 
 Here is how much of TeX's memory you used:
- 4007 strings out of 493673
- 49104 string characters out of 3141542
- 139634 words of memory out of 3000000
- 7287 multiletter control sequences out of 15000+200000
+ 4009 strings out of 493673
+ 49125 string characters out of 3141542
+ 143650 words of memory out of 3000000
+ 7289 multiletter control sequences out of 15000+200000
  18834 words of font info for 70 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  34i,9n,28p,1014b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -690,7 +690,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Caga-Masa.pdf (4 pages, 3357746 bytes).
+Output written on Caga-Masa.pdf (4 pages, 3358971 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
