@@ -1,0 +1,151 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4 distribution.
+%   Version 4.0 of REVTeX, August 2001
+%
+%   Copyright (c) 2001 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.0
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+\documentclass[prb,aps,twocolumn,preprintnumbers,amsmath,amssymb]{revtex4}
+%\documentclass[preprint,showpacs,preprintnumbers,amsmath,amssymb]{revtex4}
+
+% Some other (several out of many) possibilities
+%\documentclass[preprint,aps]{revtex4}
+%\documentclass[preprint,aps,draft]{revtex4}
+%\documentclass[prb,twocolumn,showpacs,preprintnumbers,amsmath,amssymb]{revtex4}% Physical Review B
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage[utf8]{inputenc}
+\newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
+%\nofiles
+
+\begin{document}
+
+\title{Carga específica del electrón - $e/m$}% Force line breaks with \\
+
+\author{Alejandro Hernández A.}%
+ \email{a.hernandez105@uniandes.edu.co}
+\author{Daniel Sánchez M.}%
+ \email{d.sanches462@uniandes.edu.co}
+\affiliation{%
+Departamento de Física\\ Universidad de los Andes, Bogotá, Colombia.\\
+}%
+\date{20 de agosto de 2015\\}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+En este documento explicamos la propuesto de Proyecto Final para el curso de Laboratorio Intermedio. Con la intención de profundizar un poco más en la práctica realizada de Espectros Atómicos, queremos estudiar la estructura fina del espectro de diversos elementos. Particularmente, queremos verificar que la separación entre las "sublíneas" del espectro es: $(Z\alpha)^2$ con $Z$ el número atómico y $\alpha = \frac{e^2}{4\pi \epsilon_{0} \hbar c}$ la constante de estructura fina.
+\\
+
+
+%\smallskip
+\noindent \textbf{Conceptos clave:} Espectro atómico, .
+\end{abstract}
+                             
+\maketitle
+
+\section{\label{sec:intro} Objetivos.}
+
+\begin{itemize}
+	\item Establecer un protocolo para facilitar la medición de la separación de las líneas en los espectros de emisión de elementos ligeros.
+	
+	\item Encontrar una relación matemática entre la separación entre las líneas espectrales y el número atómico del elemento.
+\end{itemize}
+
+
+\section{Marco Teórico}
+
+La estructura fina del espetro atómico describe el splitting de las líneas espectrales de los átomos debido al spin del electrón y a correcciones relativistas a la ecuación de Schrödinger. \\
+
+Dado lo anterior, las diversas líneas del espectro atómico predicho por el modelo de Bohr están compuestas, a su vez, por líneas muy cercanas entre sí. Precisamente, la relación entre la separación $L$ entre estas líneas  y el número atómico $Z$ viene dada por:
+
+\begin{equation}
+\label{eq:1}
+L \propto (Z\alpha)^2
+\end{equation}
+
+Donde $\alpha$ es comúnmente aludida como la constante de estructura fina. Dicha constante está dada por:
+
+\begin{equation}
+\label{eq:2}
+\alpha = \dfrac{e^2}{4 \pi \epsilon_0 \hbar c} \approx \dfrac{1}{137} 
+\end{equation}
+
+Por otro lado, la técnica a utilizarse para medir los espectros de emisión será la espectroscopía de alta resolución. El principal elemento es el espectrómetro. Este está compuesto por una serie de espejos y una rejilla de difracción que concentran la luz en una cámara. A esta se le ajusta el tiempo de exposición para obtener diferentes calidades en las tomas. Los elementos estudiados se almacenan en un tubo espectral, a este se le hace pasar una corriente que excita los electrones y provocan el espectro de emisión.
+
+
+\section{Montaje experimental}
+
+\subsection{Equipo}
+El principal instrumento de medición es el espectrómetro. Para una mayor confiabilidad en los datos se utilizará el espetrógrafo de alta precisión \textit{ESPARTACO} ubicado en el observatorio de La Universidad de los Andes. 
+
+\subsection{Procedimiento}
+El experimento está dividido en dos partes: \textit{i)} encontrar un método fácil y reproducible de observar la estructura fina y \textit{ii)} confirmar que la relación entre separación de las sublíneas y el número atómico está dado por la ecuación (\ref{eq:1}). \\
+
+En primer lugar, se probarán diferentes tiempos de exposición del espectrógrafo con los espectros y así se determinará el mejor rango.\\
+
+En segundo lugar, se utilizarán diferentes tubos espectrales de diversos elementos y así se determinarán cuáles entregan los resultados más confiables. Para este punto se tendrá en cuenta que, para ciertos elementos, las sublíneas están muy juntas y es difícil medir su separación, o en otros están muy separadas y se llegan a confundir con otras líneas principales. De igual manera, hay elementos cuyos espectros poseen demasiadas líneas que son muy ténues y es difícil apreciarlas aún utilizando a ESPARTACO.
+
+\subsection{Relación entre Z y espaciamiento}
+Finalmente, de obtener las imágenes de los espectros de emisión se utilizará un programa de procesamiento de imágenes (IRIS) para analizarlos. Dentro de este programa se pueden examinar los máximos y mínimos de intensidad, que serían las líneas y los vacíos respectivamente, y así poder medir la distancia entre líneas. Este proceso se repetirá para los distintos átomos utilizados.\\
+
+\section{Cronograma}
+
+Teniendo en cuenta la disponibilidad del espectrómetro mencionado previamente, el cronograma propuesto se muestra a continuación
+
+\begin{table}[h!]
+	\caption{\label{Tabla 1}Voltaje y corriente para.}
+	\begin{ruledtabular}
+		\begin{tabular}{|>{\centering\arraybackslash}p{3.0cm} | >{\centering\arraybackslash}p{5.5cm}|}
+			Semana de Clase & Actividad\\
+			\hline
+			Semana 10 & Aprender a usar el espectrómetro ESPARTACO y escoger los gases a observar por medio del mismo. \\
+			\hline
+			Semana 11 & Hacer mediciones con diversos tiempos de exposición, corriente sumistrada en los tubos espectrales y diversas líneas, con el fin de determinar condiciones ótimas de medición. \\
+			\hline
+			Semana 12 & Medir el espectro de los gases seleccionados. \\
+			\hline
+			Semana 13 & Analizar los datos con un programa de análisis de imágenes. \\
+			\hline
+			Semana 14 & Hacer el informe de los datos obtenidos. \\
+			\hline
+			Semana 15 & Realizar la exposición oral de los reultados. \\
+		\end{tabular}
+	\end{ruledtabular}
+\end{table}
+
+\section{Resultados esperados}
+
+Se espera que en efecto se pueda apreciar, con suficiente exactitud, la estructura fina de diversos átomos, además de verificar el comportamiento del espaciamiento entre las líneas. \\
+
+Además, queremos justificar matemáticamente la ecuación \ref{eq:1} y explicar de la mejor manera posible el origien físico de dichas sublíneas en el espectro atómico.
+
+Cabe aclarar que este proyecto está pensado como la continuación del proyecto de Diego Ramírez y José Acosta del semestre pasado para la misma clase, y se espera que la etapa inicial de aprender a usar el espectrómetro y el programa de análisis de imágenes sea lo suficientemente rápida con el fin de avanzar mucho más de los que lo hicieron dichos estudiantes. \\
+
+\begin{thebibliography}{99}
+\bibitem{eisberg} R. Eisberg, {\it Quantum Physics of Atoms, Molecules, Solids, Nuclei and Particles}{John Wiley \& Sons, USA, 1985}.\\
+
+\bibitem{Tipler} Tipler, Paul A., \textit{Physics for scientists and engineers}. W.H. Freeman, 4 Edici\' on, 1999.\\
+
+\bibitem{Taylor} Taylor, J.R., \textit{An Introduction to Error Analysis}. University Science Books, Sausalito, California. 2nd edition, 1982.\\
+
+\bibitem{Guia} Phywe. Specific Charge of the Electron -e/m. 5.1.02-00\\
+\end{thebibliography}
+
+\end{document}
+%
+% ****** End of file apssamp.tex ******
