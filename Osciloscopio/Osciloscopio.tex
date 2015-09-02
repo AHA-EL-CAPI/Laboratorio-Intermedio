@@ -103,16 +103,16 @@ Ahora bien, el circuito RLC a usar se muestra en la figura \ref{fig: RLC}
 	\label{fig: RLC}
 \end{figure}
 
-Este circuito es caracterizado por la ecuación \eqref{RLC}.
+Este circuito es caracterizado por la ecuación \eqref{diff}.
 
 \begin{equation}
-\label{RLC}
+\label{diff}
 \frac{d^2 q}{d t^2} + \frac{R}{L}\frac{d q}{d t} + \frac{1}{LC}q = V(t)
 \end{equation}
 
 Donde $V(t)$ es el voltaje de la fuente, $\gamma = \frac{R}{L}$ es el factor análogo a la fricción en sistemas mecánicos que da cuenta de la disipación de energía en la resistencia, y $\omega_{0}^2 = \frac{1}{LC}$ es la frecuencia natural del sistema.\\
 
-Suponiendo $V = \frac{V_{0}}{L} e^{i\omega t}$, el sistema está forzado y $\omega$ es la frecuencia de forzamiento y los parámetros $\gamma$ y $\omega_{0}$ determinan la resonancia del sistema con respecto al forzamiento  y determinan la existencia o no de soluciones oscilatorias cuando $\omega = 0$. Para dicha dependencia temporal del voltaje, la solución no homogénea de la ecuación \eqref{RLC} tiene la forma $q(t) = A(\omega) e^{i \omega t}$, con la amplitud dada por la ecuación \eqref{amplitud}.
+Suponiendo $V = \frac{V_{0}}{L} e^{i\omega t}$, el sistema está forzado y $\omega$ es la frecuencia de forzamiento y los parámetros $\gamma$ y $\omega_{0}$ determinan la resonancia del sistema con respecto al forzamiento  y determinan la existencia o no de soluciones oscilatorias cuando $\omega = 0$. Para dicha dependencia temporal del voltaje, la solución no homogénea de la ecuación \eqref{diff} tiene la forma $q(t) = A(\omega) e^{i \omega t}$, con la amplitud dada por la ecuación \eqref{amplitud}.
 
 \begin{equation}
 \label{amplitud}
@@ -155,7 +155,7 @@ El ocsilador y los generadores de señales se muestran en las figuras \ref{fig: 
 	\centering
 	\includegraphics[width=0.4\textwidth]{generador}
 	\caption{Generador de señales usado en la practica.}
-	\label{fig: RLC}
+	\label{fig: genr}
 \end{figure}
 
 \section{Resultados y análisis}
