@@ -52,7 +52,7 @@ Departamento de Física\\ Universidad de los Andes, Bogotá, Colombia.\\
              %  but any date may be explicitly specified
 
 \begin{abstract}
-Este informe presenta los datos obtenidos al medir voltaje y corriente para configuraciones solicitadas de circuitos RC y RLC. Para el circuito RC, se determinó el tiempo característico de carga y descarga de un condensador $C = 470 \mu F$, y se otuvieron los siguientes datos: $\tau_{exp} = (0.0534 \pm 0.025) s$ con error porcentual $E\% = 13.61 \%$ para $R = 100 \Omega$ y $\tau_{exp} = (0.0463 \pm 0.025) s$ con error porcentual $E\% = 75.82 \%$. Para el circuito RLC, determinó la frecuencia natural del sistema y el parámetro de resistencia y los datos obtenidos fueron los siguientes: $f_{0} = $ con error porcentual $E\% = \%$ y $\gamma = $ con error porcentual $E\% = \%$. 
+Este informe presenta los datos obtenidos al medir voltaje y corriente para configuraciones solicitadas de circuitos RC y RLC. Para el circuito RC, se determinó el tiempo característico de carga y descarga de un condensador $C = 470 \mu F$, y se otuvieron los siguientes datos: $\tau_{exp} = (0.0769 \pm 0.025) s$ para $R = 100 \Omega$ y $\tau_{exp} = (0.2610 \pm 0.025) s$ para $R = 470 \Omega$, con error porcentual $E\% = 63.1 \%$ y $E\% = 18.13 \%$. Para el circuito RLC, se trató de determinar el parámetro de resistencia (tiempo característico de carga en el circuito RLC) pero los datos de ambas manipulaciones se desfasan 1 orden de magnitud de los datos teóricos y el análsis a estos resultados anómalos se muestra en detalle en la sección de \textbf{RESULTADOS}. 
 \\
 
 %\smallskip
@@ -178,38 +178,42 @@ Para visualizar las figuras de Lissajous, se conectaron ambos generadores direct
 
 \section{Resultados y análisis}
 
-Para el proceso de carga y descarga de un condensador de $C = 470 \mu F$ se usaron dos resistencias distintas ($R = 100 \Omega$ y $R = 470 \Omega$) en un circuito RC. Los datos obtenidos se muestran en las figuras \ref{fig: carga111}, \ref{fig: carga222} para la carga, y en las figuras \ref{fig: carga11}, \ref{fig: carga22} para la descarga.
+\subsection{Circuito RC}
+Para el proceso de carga y descarga de un condensador de $C = 470 \mu F$ se usaron dos resistencias distintas ($R = 100 \Omega$ y $R = 470 \Omega$) en un circuito RC. Los datos obtenidos del voltaje de la resistencia se muestran en las figuras \ref{fig: carga111}, \ref{fig: carga222} para la descarga, y en las figuras \ref{fig: carga11}, \ref{fig: carga22} para la carga. Cabe aclarar que el voltaje sobre la resistencia se comporta de forma inversa al voltaje del condensadador puesto que va como la derivada de la carga, además, las condiciones para el el $37\%$ y el $63\%$ de la carga máxima del condensador e pueden obtener calculando respectivamente el $63\%$ y el $37\%$ del voltaje máximo sobre la resistencia.
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.5\textwidth,height=0.25\textheight]{carga111}
-	\caption{Carga del condesador para los parámetros mencionados previamene de $R = 470 \Omega$ y $C = 470 \mu F$.}
+	\caption{Descarga del condesador para los parámetros mencionados previamene de $R = 470 \Omega$ y $C = 470 \mu F$.}
 	\label{fig: carga111}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
+	\includegraphics[width=0.5\textwidth,height=0.25\textheight]{carga11}
+	\caption{Carga del condesador para los parámetros mencionados previamene de $R = 470 \Omega$ y $C = 470 \mu F$.}
+	\label{fig: carga11}
+\end{figure}
+
+En las anteriores gráficas se puede ver claramente que el condensador no alcanzó los valores de carga buscados. La razón para esto es que no se usaron la resistencia y el condensador recomendados en la guía ya que no se disponía de ellos para el montaje experimental. En otras palabras, la frecuencia de la onda con la cual se alimentó el circuito era tan alta que no le daba suficiente tiempo al condensador para realizar "completamente" el proceso de carga o de descarga (la completitud jamás se alcanza dado el comportamiento asintótico de la carga del condensador para tiempos muy grandes dado por \eqref{VRC} y \eqref{RC}).
+
+\begin{figure}[h!]
+	\centering
 	\includegraphics[width=0.5\textwidth,height=0.25\textheight]{carga222}
-	\caption{Carga del condesador para los parámetros mencionados previamene de $R = 100 \Omega$ y $C = 470 \mu F$.}
+	\caption{Descarga del condesador para los parámetros mencionados previamene de $R = 100 \Omega$ y $C = 470 \mu F$.}
 	\label{fig: carga222}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\textwidth,height=0.25\textheight]{carga11}
-	\caption{Descarga del condesador para los parámetros mencionados previamene de $R = 470 \Omega$ y $C = 470 \mu F$.}
-	\label{fig: carga11}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
 	\includegraphics[width=0.5\textwidth,height=0.25\textheight]{carga22}
-	\caption{Descarga del condesador para los parámetros mencionados previamene de $R = 100 \Omega$ y $C = 470 \mu F$.}
+	\caption{Carga del condesador para los parámetros mencionados previamene de $R = 100 \Omega$ y $C = 470 \mu F$.}
 	\label{fig: carga22}
 \end{figure}
-\
-\\
-Los datos de tiempos característicos para las fases de carga y descarga se muestran en la tabla \ref{Tabla 1}.
+
+En contraste con lo mencionado previamente, en las últimas dos gráficas se puede apreciar que el condensador sí alcanza los valores de carga deseados en el tiempo durante el cual se tomaron datos, indicando así que la resistencia usada sí permitía que el condensador completara sus ciclos con la frecuencia de la onda de alimentación del circuito.\\
+
+Ahora bien, teniendo el cuenta el fit realizado para cada uno de los procesos, los datos de tiempos característicos para las fases de carga y descarga se muestran en la tabla \ref{Tabla 1}.\\
 
 \begin{table}[h!]
 	\caption{\label{Tabla 1}Tiempos característicos de carga y descarga.}
@@ -217,22 +221,26 @@ Los datos de tiempos característicos para las fases de carga y descarga se mues
 		\begin{tabular}{||M{2.5cm}|M{2.5cm}|M{2.5cm}||}
 			Fase & $R (\Omega)$ & $\tau_{exp}$ (s)\\
 			\hline
-			Carga & 100 & 0.0534\\
-			Descarga & 100 &  0.0534\\
-			Carga & 470 & 0.0480\\
-			Descarga & 470 & 0.0445\\
+			Carga & 100 & 0.0765\\
+			Descarga & 100 &  0.0773\\
+			Carga & 470 & 0.2577\\
+			Descarga & 470 & 0.2642\\
 		\end{tabular}
 	\end{ruledtabular}
 \end{table}
 
-Y promediando los datos tenemos que $\tau_{exp} = (0.0534 \pm 0.025) s$ para $R = 100 \Omega$ y $\tau_{exp} = (0.0463 \pm 0.025) s$ para $R = 470 \Omega$. Cabe aclarar que las incertidumbres etán dadas por la escala horizontal arrojada por el osciloscopio. Comparando dichos valores experimentales con los valores teóricos respectivos de $\tau_{teo} = 0.0470$ y $\tau_{teo} = 0.2209$, podemos ver que obtuvimos errores experimentales de $E\% = 	13.61 \%$ y $E\% = 75.82 \%$ respectivamente.\\
+Y promediando los datos tenemos que $\tau_{exp} = (0.0769 \pm 0.025) s$ para $R = 100 \Omega$ y $\tau_{exp} = (0.2610 \pm 0.025) s$ para $R = 470 \Omega$, donde las incertidumbres están dadas por la escala horizontal arrojada por el osciloscopio. Comparando dichos valores experimentales con los valores teóricos respectivos de $\tau_{teo} = 0.0470$ y $\tau_{teo} = 0.2209$, podemos ver que obtuvimos errores experimentales de $E\% = 	63.61 \%$ y $E\% = 18.13 \%$ respectivamente.\\
 
-OJO - FALTA UN MAYOR ANÁLISIS\\
+Para justificar el error alto de estas medidiciones podemos mencionar que hubo que cambiar la sonda de medición en repetidas ocasiones dado resultados con mucho ruido mostrados en la pantalla del osciloscopio. Además, como será abordado con más detalle en párrafos posteriores, la resistencia interna de el montaje utilizado, a saber, la resistencia de los cables y de los elementos electrónicos usados, no es despreciable, y dado que una de las resistencias usadas era 5 veces más grande que la otra, es razonable argumentar que la resistencia del circuito afectó con mayor vehemencia los resultados de la resistencia de $R = 100 \Omega$ que los de la resistencia de $R = 470 \Omega$.
+
+\subsection{Circuito RLC}
+
+Los resultados para las mediciones del circuito RLC en presencia y ausencia de resistencia se muestran en las figuras \ref{fig: amorti1} y \ref{fig: amorti2}.
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.5\textwidth,height=0.25\textheight]{amorti1}
-	\caption{Potencial de un condensador en función del tiempo para un circuito RLC con $R = 1 kHz$, $L = 2 mH$ y $C = 51 pF$.}
+	\caption{Voltaje de un condensador en función del tiempo para un circuito RLC con $R = 1 kHz$, $L = 2 mH$ y $C = 51 pF$.}
 	\label{fig: amorti1}
 \end{figure}
 
@@ -248,40 +256,40 @@ V(t) = Ae^{- \gamma t}\sin(\omega ' t + \delta) + h
 Donde $h$ tan solo representa el voltaje alrededor del cual se realizan las oscilaciones en la figura \ref{fig: amorti1}. Dado esto, se obtuvieron los datos mostrados en la tabla \ref{Tabla 2}:
 
 \begin{table}[h!]
-	\caption{\label{Tabla 2}Parámetros óptimo otenidos del fit no lineal para $V(t)$ en presencia de una resistencia.}
+	\caption{\label{Tabla 2}Parámetros óptimos otenidos del fit no lineal para $V(t)$ en presencia de una resistencia.}
 	\begin{ruledtabular}
 		\begin{tabular}{||M{2.5cm}|M{2.5cm}|M{2.5cm}||}
 			Parámetro & Valor & Error estándar$^3$\\
 			\hline
 			A & 8.4571 V & 1.6487 $\cdot\ 10^{-2}$ V\\
-			$\gamma$ & 4.1761 $\cdot\ 10^{4}\ 1/s$ & 1.1207 $\cdot\ 10^{2}\ 1/s$\\
-			$\omega '$ & 1.3878 $\cdot\ 10^{6}\ 1/s$ &  1.1546 $\cdot\ 10^{2}\ 1/s$\\
-			$\delta$ & 0.8965 rad & 1.9596 $\cdot\ 10^{-3}$ rad\\
-			$h$ & 10.1719 V & 2.8124 $\cdot\ 10^{-3}$ V\\
+			$\gamma$ & 4.1761 $\cdot\ 10^{4}\ 1/s$ & 1.1739 $\cdot\ 10^{2}\ 1/s$\\
+			$\omega '$ & 1.3878 $\cdot\ 10^{6}\ 1/s$ &  1.1209 $\cdot\ 10^{2}\ 1/s$\\
+			$\delta$ & 0.8965 rad & 2.0685 $\cdot\ 10^{-3}$ rad\\
+			$h$ & 10.1719 V & 2.9568 $\cdot\ 10^{-3}$ V\\
 		\end{tabular}
 	\end{ruledtabular}
 \end{table}
 
+De acuerdo a la tabla anterior tenemos $\tau_{exp} = (2.394 \cdot 10^{-5} \pm 8.5186 \cdot 10^{-3})s$ mientras $\tau_{teo} = 4 \cdot 10^{-6}$ y claramente se puede apreciar que difieren por un orden de magnitud.\\
+
+En la figura \ref{fig: amorti2} se muestra el voltaje del condensador como función del tiempo para el circuito LC en serie (ausencia de resistencia) con un fit realizado nuevamente con \eqref{transi}.\\
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.5\textwidth,height=0.25\textheight]{amorti2}
-	\caption{Potencial de un condensador en función del tiempo para un circuito LC con  $L = 2 mH$ y $C = 51 pF$.}
+	\caption{Voltaje de un condensador en función del tiempo para un circuito LC con  $L = 2 mH$ y $C = 51 pF$.}
 	\label{fig: amorti2}
 \end{figure}
 
-En la figura \ref{fig: amorti2} se muestra el voltaje del condensador como función del tiempo para el circuito LC en serie (ausencia de resistencia).\\
-
-La función utilizada para hacer el fit no lineal fue nuevamente el voltaje dado por \eqref{transi} y se obtubieron los datos mostrados en la tabla \ref{Tabla 3}.\\\\\\\\\\\\\\\\
-
-OJO - ANALIZAR LO QUE PASA CON LA RESISTENICIA, YO NO VEO NADA SIGNIFICATIVO.\\
+Los datos obtenidos del fit se muestran en la tabla \ref{Tabla 3}.\\
 
 \begin{table}[h!]
-	\caption{\label{Tabla 3}Parámetros óptimo otenidos del fit no lineal para $V(t)$ en ausencia de una resistencia.}
+	\caption{\label{Tabla 3}Parámetros óptimos otenidos del fit no lineal para $V(t)$ en ausencia de una resistencia.}
 	\begin{ruledtabular}
 		\begin{tabular}{||M{2.5cm}|M{2.5cm}|M{2.5cm}||}
 			Parámetro & Valor & Error estándar\\
 			\hline
-			A & 8.5367 V & 1.6487 $\cdot\ 10^{-2}$ V\\
+			A & 8.5367 V & 1.5778 $\cdot\ 10^{-2}$ V\\
 			$\gamma$ & 4.2087 $\cdot\ 10^{4}\ 1/s$ & 1.1207 $\cdot\ 10^{2}\ 1/s$\\
 			$\omega '$ & 1.3878 $\cdot\ 10^{6}\ 1/s$ &  1.1546 $\cdot\ 10^{2}\ 1/s$\\
 			$\delta$ & 0.9411 rad & 1.9596 $\cdot\ 10^{-3}$ rad\\
@@ -289,6 +297,10 @@ OJO - ANALIZAR LO QUE PASA CON LA RESISTENICIA, YO NO VEO NADA SIGNIFICATIVO.\\
 		\end{tabular}
 	\end{ruledtabular}
 \end{table}
+
+Con base en la tabla \ref{Tabla 3} tenemos $\tau_{exp} = (2.376 \cdot 10^{-5} \pm 8.922 \cdot 10^{-3})s$ mientras $\tau_{teo} = 4 \cdot 10^{-6}$. Claramente se puede apreciar que difieren por un orden de magnitud.\\
+
+La razón para obtener mediciones con errores tan grandes atañe nuevamente a la resistencia interna del circuito. En este caso el hecho de que no se pueda despreciar esta resistencia es mucho más evidente puesto que se observó un carácter amortiguado del voltaje tanto en la figura \ref{fig: amorti1} y \ref{fig: amorti2}, cuando en el segundo caso dicho comportamiento no se debería tener por la ausencia de una resistencia que lo cause.\\
 
 Con respecto a los datos para la curva de resonancia, cabe aclarar que apesar de que se trataron de obtener diversos datos con los cuales contruir la curva, no le obtuvieron datos razonables puesto que el máximo de la curva estaba muy alejado de lo previsto teóricamente. Sin embargo, los datos obtenidos se muestran en la figura \ref{fig: reso}.
 
@@ -324,7 +336,7 @@ Se observaron todas las proporciones y desfases ($\frac{\omega_{x}}{\omega_{y}} 
 		
 	\item El buen uso de elementos de laboratorio tales como el osciloscopio, generadores de señales, y elementos electrónicos de dos terminales tales como resistencias, inductores y condensadores es fundamental a la hora de realizar mediciones experimentales de fenómenos ondulatorios.
 	
-	\item OJO.
+	\item Lo más importante que pudimos notar en el experimento fue que la resistencia interna de los montajes utilizados, a saber, la resistencia de los cables usados y la resistencia de todos los elementos electrónicos utilizados, no es despreciable y debería ser tenida en cuenta en los cálculos teóricos. La principal razón para haber tenido errores porcentuales tan altos en todas las mediciones realizadas fue precisamente esto, además de tener sondas defectuosas para realizar las susodichas mediciones.
 	
 \end{itemize}
 

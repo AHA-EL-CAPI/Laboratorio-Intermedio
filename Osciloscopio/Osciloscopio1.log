@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  3 SEP 2015 20:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  4 SEP 2015 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,7 +558,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-<osci.jpg, id=24, 602.25pt x 293.59688pt>
+<osci.jpg, id=22, 602.25pt x 293.59688pt>
 File: osci.jpg Graphic file (type jpg)
  <use osci.jpg>
 Package pdftex.def Info: osci.jpg used on input line 157.
@@ -567,7 +567,7 @@ Package pdftex.def Info: osci.jpg used on input line 157.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<generador.jpg, id=25, 501.875pt x 501.875pt>
+<generador.jpg, id=23, 501.875pt x 501.875pt>
 File: generador.jpg Graphic file (type jpg)
  <use generador.jpg>
 Package pdftex.def Info: generador.jpg used on input line 164.
@@ -596,94 +596,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-<carga111.jpg, id=26, 1084.05pt x 722.7pt>
+[2 <./osci.jpg> <./generador.jpg>] <carga111.jpg, id=29, 1084.05pt x 722.7pt>
 File: carga111.jpg Graphic file (type jpg)
- <use carga111.jpg>
-Package pdftex.def Info: carga111.jpg used on input line 185.
+
+<use carga111.jpg>
+Package pdftex.def Info: carga111.jpg used on input line 186.
 (pdftex.def)             Requested size: 254.99991pt x 167.99292pt.
 
-Overfull \hbox (8.99991pt too wide) in paragraph at lines 185--186
+Overfull \hbox (8.99991pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<carga222.jpg, id=27, 1084.05pt x 722.7pt>
-File: carga222.jpg Graphic file (type jpg)
- <use carga222.jpg>
-Package pdftex.def Info: carga222.jpg used on input line 192.
-(pdftex.def)             Requested size: 254.99991pt x 167.99292pt.
-
-Overfull \hbox (8.99991pt too wide) in paragraph at lines 192--193
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<carga11.jpg, id=28, 1084.05pt x 722.7pt>
+<carga11.jpg, id=30, 1084.05pt x 722.7pt>
 File: carga11.jpg Graphic file (type jpg)
  <use carga11.jpg>
-Package pdftex.def Info: carga11.jpg used on input line 199.
+Package pdftex.def Info: carga11.jpg used on input line 193.
 (pdftex.def)             Requested size: 254.99991pt x 167.99292pt.
 
-Overfull \hbox (8.99991pt too wide) in paragraph at lines 199--200
+Overfull \hbox (8.99991pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
+<carga222.jpg, id=31, 1084.05pt x 722.7pt>
+File: carga222.jpg Graphic file (type jpg)
+ <use carga222.jpg>
+Package pdftex.def Info: carga222.jpg used on input line 202.
+(pdftex.def)             Requested size: 254.99991pt x 167.99292pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Overfull \hbox (8.99991pt too wide) in paragraph at lines 202--203
+ [][] 
+ []
 
-<carga22.jpg, id=29, 1084.05pt x 722.7pt>
+<carga22.jpg, id=32, 1084.05pt x 722.7pt>
 File: carga22.jpg Graphic file (type jpg)
  <use carga22.jpg>
-Package pdftex.def Info: carga22.jpg used on input line 206.
+Package pdftex.def Info: carga22.jpg used on input line 209.
 (pdftex.def)             Requested size: 254.99991pt x 167.99292pt.
 
-Overfull \hbox (8.99991pt too wide) in paragraph at lines 206--207
+Overfull \hbox (8.99991pt too wide) in paragraph at lines 209--210
  [][] 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
-[2 <./osci.jpg> <./generador.jpg>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 213.
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+[3 <./carga111.jpg> <./carga11.jpg> <./carga222.jpg> <./carga22.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 []\OT1/cmr/m/n/10 Y pro-me-diando los datos ten-emos que
  []
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 228--229
-\OML/cmm/m/it/10 ^^\[] \OT1/cmr/m/n/10 = (0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05
-34 \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 025)
+Underfull \hbox (badness 3884) in paragraph at lines 232--233
+\OML/cmm/m/it/10 ^^\[] \OT1/cmr/m/n/10 = (0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 07
+69 \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 025)
 \OML/cmm/m/it/10 s$ \OT1/cmr/m/n/10 para $\OML/cmm/m/it/10 R \OT1/cmr/m/n/10 = 
 100
 $ y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
-
+Underfull \hbox (badness 3375) in paragraph at lines 232--233
+\OT1/cmr/m/n/10 ex-per-i-men-tales con los val-ores te^^Soricos re-spec-tivos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
-<amorti1.jpg, id=34, 1084.05pt x 722.7pt>
+<amorti1.jpg, id=36, 1084.05pt x 722.7pt>
 File: amorti1.jpg Graphic file (type jpg)
  <use amorti1.jpg>
-Package pdftex.def Info: amorti1.jpg used on input line 234.
+Package pdftex.def Info: amorti1.jpg used on input line 242.
 (pdftex.def)             Requested size: 254.99991pt x 167.99292pt.
 
-Overfull \hbox (8.99991pt too wide) in paragraph at lines 234--235
+Overfull \hbox (8.99991pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
@@ -691,131 +685,124 @@ Overfull \hbox (8.99991pt too wide) in paragraph at lines 234--235
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<amorti2.jpg, id=35, 1084.05pt x 722.7pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+[]\OT1/cmr/m/n/10 De acuerdo a la tabla an-te-rior ten-emos
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 273--274
+\OML/cmm/m/it/10 ^^\[] \OT1/cmr/m/n/10 = (2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 39
+4 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 10[] \OMS/cmsy/m/n/10 ^^F \OT1/cmr/m/n/1
+0 8\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5186 \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 
+10[])\OML/cmm/m/it/10 s$ \OT1/cmr/m/n/10 mien-tras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+<amorti2.jpg, id=37, 1084.05pt x 722.7pt>
 File: amorti2.jpg Graphic file (type jpg)
  <use amorti2.jpg>
-Package pdftex.def Info: amorti2.jpg used on input line 267.
+Package pdftex.def Info: amorti2.jpg used on input line 279.
 (pdftex.def)             Requested size: 254.99991pt x 167.99292pt.
 
-Overfull \hbox (8.99991pt too wide) in paragraph at lines 267--268
+Overfull \hbox (8.99991pt too wide) in paragraph at lines 279--280
  [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-
+Underfull \hbox (badness 7540) in paragraph at lines 301--302
+[]\OT1/cmr/m/n/10 Con base en la tabla III[] ten-emos $\OML/cmm/m/it/10 ^^\[] \
+OT1/cmr/m/n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-[3 <./carga111.jpg> <./carga222.jpg> <./carga11.jpg> <./carga22.jpg>]
+[4 <./amorti1.jpg> <./amorti2.jpg>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 275.
+ on input line 302.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-<reson.jpg, id=39, 1084.05pt x 722.7pt>
+<reson.jpg, id=43, 1084.05pt x 722.7pt>
 File: reson.jpg Graphic file (type jpg)
  <use reson.jpg>
-Package pdftex.def Info: reson.jpg used on input line 297.
+Package pdftex.def Info: reson.jpg used on input line 309.
 (pdftex.def)             Requested size: 254.99991pt x 134.39214pt.
 
-Overfull \hbox (8.99991pt too wide) in paragraph at lines 297--298
+Overfull \hbox (8.99991pt too wide) in paragraph at lines 309--310
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-[4 <./amorti1.jpg> <./amorti2.jpg> <./reson.jpg>]
 <lissa.jpg, id=44, 1028.34187pt x 578.16pt>
 File: lissa.jpg Graphic file (type jpg)
  <use lissa.jpg>
-Package pdftex.def Info: lissa.jpg used on input line 310.
+Package pdftex.def Info: lissa.jpg used on input line 322.
 (pdftex.def)             Requested size: 254.99791pt x 134.39433pt.
 
-Overfull \hbox (8.99791pt too wide) in paragraph at lines 310--311
+Overfull \hbox (8.99791pt too wide) in paragraph at lines 322--323
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 321.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 333.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 321.
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 333.
+ [5 <./reson.jpg> <./lissa.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
  
  []
 
 (./Osciloscopio1.end
-Underfull \hbox (badness 10000) in paragraph at lines 334--1
+Underfull \hbox (badness 10000) in paragraph at lines 346--1
  
  []
 
@@ -836,42 +823,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 )
-Overfull \hbox (19.78706pt too wide) in paragraph at lines 3--335
+Overfull \hbox (19.78706pt too wide) in paragraph at lines 3--347
  []\OT1/cmr/m/n/9 Im^^Sagenes obtenidas de http://www.datuopinion.com/generador
 -
  []
 
-[5 <./lissa.jpg>] (./Osciloscopio1.aux) ) 
+[6] (./Osciloscopio1.aux) ) 
 Here is how much of TeX's memory you used:
  4397 strings out of 493304
- 55668 string characters out of 6139871
- 136955 words of memory out of 5000000
+ 55691 string characters out of 6139871
+ 135955 words of memory out of 5000000
  7757 multiletter control sequences out of 15000+600000
  14161 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,15n,28p,776b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Osciloscopio1.pdf (5 pages, 1599467 bytes).
+ 37i,15n,28p,872b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Osciloscopio1.pdf (6 pages, 1605018 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
