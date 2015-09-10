@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  10 SEP 2015 11:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  10 SEP 2015 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -410,37 +410,58 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (./Difracción.aux)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/12/03 3.9h The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2014/01/29 v5.0m Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/12/03 3.9h Babel common definitions
+\babel@savecnt=\count106
+\U@D=\dimen115
+)
+\es@datefmt=\count107
+\es@quottoks=\toks26
+\es@quotdepth=\count108
+Package babel Info: Making " an active character on input line 496.
+Package babel Info: Making . an active character on input line 599.
+Package babel Info: Making < an active character on input line 644.
+Package babel Info: Making > an active character on input line 644.
+))
+(./Difracción.aux)
 \openout1 = `Difracción.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-Class revtex4 Info: Patching array package. on input line 38.
-Class revtex4 Info: cite was not loaded (OK!) on input line 38.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+Class revtex4 Info: Patching array package. on input line 39.
+Class revtex4 Info: cite was not loaded (OK!) on input line 39.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 39.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen115
+\scratchcounter=\count109
+\scratchdimen=\dimen116
 \scratchbox=\box36
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen116
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks27
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen117
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -489,129 +510,125 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
   
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 63--64
-\OT1/cmr/m/n/10 New-ton, quienes pro-pon^^S^^Pan que la luz con-sist^^S^^Pa de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 1226) in paragraph at lines 64--65
+\OT1/cmr/m/n/10 New-ton, quie-nes pro-pon^^S^^Pan que la luz con-sist^^S^^Pa de
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 <bragg.jpg, id=1, 338.26375pt x 149.55875pt>
 File: bragg.jpg Graphic file (type jpg)
  <use bragg.jpg>
-Package pdftex.def Info: bragg.jpg used on input line 90.
+Package pdftex.def Info: bragg.jpg used on input line 91.
 (pdftex.def)             Requested size: 203.99689pt x 90.19691pt.
 \@endnoteout=\write3
 \openout3 = `Difracción.end'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./bragg.jpg>]
-<montaje.png, id=21, 1371.1225pt x 770.88pt>
+<montaje.png, id=20, 1371.1225pt x 770.88pt>
 File: montaje.png Graphic file (type png)
  <use montaje.png>
-Package pdftex.def Info: montaje.png used on input line 113.
+Package pdftex.def Info: montaje.png used on input line 114.
 (pdftex.def)             Requested size: 203.99689pt x 114.68599pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
-
-<montaje2.png, id=22, 1371.1225pt x 770.88pt>
+<montaje2.png, id=21, 1371.1225pt x 770.88pt>
 File: montaje2.png Graphic file (type png)
  <use montaje2.png>
-Package pdftex.def Info: montaje2.png used on input line 164.
+Package pdftex.def Info: montaje2.png used on input line 165.
 (pdftex.def)             Requested size: 203.99689pt x 114.68599pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 [2 <./montaje.png> <./montaje2.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 207.
+ on input line 208.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 272--273
+\OT1/cmr/m/n/10 por-cen-tua-les de $21[]13 %[]$ y $13[]00 %[]$ res-pec-ti-va-me
+n-te.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
  
  []
 
@@ -620,15 +637,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--304
  
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+ 
+ []
+
 (./Difracción.end
-Underfull \hbox (badness 10000) in paragraph at lines 304--1
+Underfull \hbox (badness 10000) in paragraph at lines 305--1
  
  []
 
 
 Overfull \hbox (12.40102pt too wide) in paragraph at lines 1--2
- []\OT1/cmr/m/n/9 Imagen obtenida de http://www.xtal.iqfr.csic.es/Cristalografi
-a 
+ []\OT1/cmr/m/n/9 Imagen ob-te-ni-da de http://www.xtal.iqfr.csic.es/Cristalogr
+afia 
  []
 
 
@@ -648,13 +670,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 ) [4] (./Difracción.aux) ) 
 Here is how much of TeX's memory you used:
- 4346 strings out of 493304
- 55004 string characters out of 6139871
- 141870 words of memory out of 5000000
- 7715 multiletter control sequences out of 15000+600000
+ 5043 strings out of 493304
+ 63653 string characters out of 6139871
+ 158250 words of memory out of 5000000
+ 8403 multiletter control sequences out of 15000+600000
  14161 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,16n,28p,875b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,16n,28p,875b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
@@ -672,7 +694,7 @@ y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Difracción.pdf (4 pages, 544624 bytes).
+Output written on Difracción.pdf (4 pages, 543459 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
