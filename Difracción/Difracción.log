@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  10 SEP 2015 00:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  10 SEP 2015 00:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -590,31 +590,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--206
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
-
- []
-
-
 Underfull \hbox (badness 1320) in paragraph at lines 203--206
 \OT1/cmr/m/n/10 La dis-tan-cia me-dida de la l^^Samina de grafito y la
  []
@@ -660,9 +635,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--1
  []
 
 
-Overfull \hbox (61.73775pt too wide) in paragraph at lines 1--2
+Overfull \hbox (12.40102pt too wide) in paragraph at lines 1--2
  []\OT1/cmr/m/n/9 Imagen obtenida de http://www.xtal.iqfr.csic.es/Cristalografi
-a/parte[]05[]5-
+a 
  []
 
 
@@ -686,10 +661,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4346 strings out of 493304
- 54999 string characters out of 6139871
+ 4345 strings out of 493304
+ 54991 string characters out of 6139871
  141895 words of memory out of 5000000
- 7715 multiletter control sequences out of 15000+600000
+ 7714 multiletter control sequences out of 15000+600000
  14161 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,16n,28p,875b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -710,7 +685,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Difracción.pdf (4 pages, 544474 bytes).
+Output written on Difracción.pdf (4 pages, 544470 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
