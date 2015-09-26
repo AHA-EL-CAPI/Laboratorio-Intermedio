@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  10 SEP 2015 11:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  22 SEP 2015 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,7 +430,23 @@ Package babel Info: Making . an active character on input line 599.
 Package babel Info: Making < an active character on input line 644.
 Package babel Info: Making > an active character on input line 644.
 ))
-(./Difracción.aux)
+(./Difracción.aux
+
+LaTeX Warning: Label `yo' multiply defined.
+
+
+LaTeX Warning: Label `yo' multiply defined.
+
+
+LaTeX Warning: Label `yo' multiply defined.
+
+
+LaTeX Warning: Label `exp9' multiply defined.
+
+
+LaTeX Warning: Label `yo' multiply defined.
+
+)
 \openout1 = `Difracción.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -448,8 +464,7 @@ LaTeX Font Info:    ... okay on input line 39.
 Class revtex4 Info: Patching array package. on input line 39.
 Class revtex4 Info: cite was not loaded (OK!) on input line 39.
 Class revtex4 Info: multicol was not loaded (OK!) on input line 39.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen116
@@ -552,22 +567,58 @@ File: bragg.jpg Graphic file (type jpg)
  <use bragg.jpg>
 Package pdftex.def Info: bragg.jpg used on input line 91.
 (pdftex.def)             Requested size: 203.99689pt x 90.19691pt.
+
+
+LaTeX Warning: Reference `fig: bragg' on page 1 undefined on input line 96.
+
 \@endnoteout=\write3
 \openout3 = `Difracción.end'.
+
+
+LaTeX Warning: Reference `bragg' on page 1 undefined on input line 103.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
+
+LaTeX Warning: Reference `fig: montaje' on page 1 undefined on input line 105.
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./bragg.jpg>]
-<montaje.png, id=20, 1371.1225pt x 770.88pt>
+<montaje.png, id=21, 1371.1225pt x 770.88pt>
 File: montaje.png Graphic file (type png)
  <use montaje.png>
 Package pdftex.def Info: montaje.png used on input line 114.
 (pdftex.def)             Requested size: 203.99689pt x 114.68599pt.
 
-<montaje2.png, id=21, 1371.1225pt x 770.88pt>
+
+LaTeX Warning: Reference `eq. 1' on page 2 undefined on input line 119.
+
+
+LaTeX Warning: Reference `bragg' on page 2 undefined on input line 119.
+
+
+LaTeX Warning: Reference `bragg' on page 2 undefined on input line 126.
+
+
+LaTeX Warning: Reference `long. onda' on page 2 undefined on input line 126.
+
+
+LaTeX Warning: Reference `broglie' on page 2 undefined on input line 133.
+
+
+LaTeX Warning: Reference `long. onda' on page 2 undefined on input line 133.
+
+
+LaTeX Warning: Reference `fig: montaje2' on page 2 undefined on input line 147.
+
+
+
+Package natbib Warning: Citation `endnote7' on page 2 undefined on input line 1
+47.
+
+<montaje2.png, id=22, 1371.1225pt x 770.88pt>
 File: montaje2.png Graphic file (type png)
  <use montaje2.png>
 Package pdftex.def Info: montaje2.png used on input line 165.
@@ -601,6 +652,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
+
+LaTeX Warning: Reference `broglie' on page 2 undefined on input line 207.
+
+
+LaTeX Warning: Reference `long. onda' on page 2 undefined on input line 207.
+
+
+LaTeX Warning: Reference `Tabla 2' on page 2 undefined on input line 207.
+
+
+LaTeX Warning: Reference `Tabla 3' on page 2 undefined on input line 207.
+
 [2 <./montaje.png> <./montaje2.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
@@ -617,6 +680,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--254
  []
 
 
+LaTeX Warning: Reference `diametro' on page 3 undefined on input line 255.
+
+
 Underfull \hbox (badness 1688) in paragraph at lines 272--273
 \OT1/cmr/m/n/10 por-cen-tua-les de $21[]13 %[]$ y $13[]00 %[]$ res-pec-ti-va-me
 n-te.
@@ -626,6 +692,9 @@ n-te.
 Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
+
+
+LaTeX Warning: Reference `diametro' on page 3 undefined on input line 274.
 
 [3]
 Underfull \hbox (badness 10000) in paragraph at lines 301--303
@@ -668,36 +737,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  
  []
 
-) [4] (./Difracción.aux) ) 
+)
+
+Package natbib Warning: There were undefined citations.
+
+[4] (./Difracción.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5043 strings out of 493304
- 63653 string characters out of 6139871
- 158250 words of memory out of 5000000
- 8403 multiletter control sequences out of 15000+600000
+ 5057 strings out of 493304
+ 63767 string characters out of 6139871
+ 158423 words of memory out of 5000000
+ 8417 multiletter control sequences out of 15000+600000
  14161 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,16n,28p,875b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Difracción.pdf (4 pages, 543459 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb>
+Output written on Difracción.pdf (4 pages, 559624 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
