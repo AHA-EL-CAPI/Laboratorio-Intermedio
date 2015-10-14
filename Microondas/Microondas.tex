@@ -52,7 +52,7 @@ Departamento de Física\\ Universidad de los Andes, Bogotá, Colombia.\\
              %  but any date may be explicitly specified
 
 \begin{abstract}
-Este informe presenta los datos obtenidos al medir la intensidad de las micoondas recibidas en distintas configuraciones de una fuente emisora y un receptor. Básicamente, se trataron de verficar diversos conceptos vistos en el curso de \textbf{ONDAS Y FLUIDOS} tales como la ley de reflexión, la ley de Snell, ondas estacionarias y patrones de interferencia. Entre los resultados notables cabe mencionar OJO y OJO. Los demás resultados y todos los comentarios de los mismos se muestran en la sección de \textbf{RESULTADOS Y ANÁLISIS}.\\
+Este informe presenta los datos obtenidos al medir la intensidad de las micoondas recibidas en distintas configuraciones de una fuente emisora y un receptor. Básicamente, se trataron de verficar diversos conceptos vistos en el curso de \textbf{ONDAS Y FLUIDOS} tales como la ley de reflexión, la ley de Snell, ondas estacionarias y patrones de interferencia. Entre los resultados notables cabe mencionar el ínidice de refración del estireno, para el cual se halló un valor de $n_{exp} = 1.41 \pm 0.08$ con un error porcentual de $11\%$ con respecto al valor teórico $n_{teo} = 1.59$. Los demás resultados y todos los comentarios de los mismos se muestran en la sección de \textbf{RESULTADOS Y ANÁLISIS}.\\
 
 \noindent \textbf{Conceptos clave:} Microondas, reflexión, refracción, leyes de Snell, ondas estacionarias, patrón de interferencia.
 \end{abstract}
@@ -73,7 +73,7 @@ y la ley de refracción, usualmente aludida como ley de Snell en honor a su desc
 
 \begin{equation}
 n_1\sin{\theta_I} = n_2sin{\theta_T}
-\label{eq:snell}
+\label{eq:refraccion}
 \end{equation}
 
 Donde $\theta_R, \theta_T$ hacen referencia a los ángulos de reflexión y refracción respectivamente, los cuales, al igual que el ángulo de incidencia, están definidos con respecto a la normal de la superficie de incidencia, por lo que solo pueden tomar valores en $[0,\frac{\pi}{2})$. Por otra parte, el índice de refracción $n$ se define como la razón entre la velocidad de la luz y la velocidad en el medio actual, y está relacionado con la densidad óptica del medio:
@@ -89,7 +89,7 @@ De la ley de refracción cabe resaltar que si el medio de incidencia es más den
 
 \begin{equation}
 \sin{{\theta_I}_{crit}} = \frac{n2}{n1}\sin{\frac{\pi}{2}} < 1
-\label{eq:crit}
+\label{eq:rit}
 \end{equation}
 
 Ahora bien, para un conductor perfecto el campo en su interior es nulo \cite{Griffiths}, dado que cualquier campo que se intente aplicar, moverá las cargas en la superficie del conductor de tal manera que lo anule. En este sentido, si se tiene una rejilla de un material conductor, se puede puede dejar pasar campo eléctrico solo en la dirección de la rejilla, dado que la componente del campo que no sea paralela, encontrará el conductor y se anulará. En este sentido, con una rejilla metálica se puede polarizar una onda electromagnética.\\
@@ -109,7 +109,7 @@ I = \frac{1}{2}\epsilon_0{E_0}^2{\cos^2{\theta_2}}\cos^2{ \left( \theta_1-\theta
 \label{eq:polarizador2}
 \end{equation}
 
-Nótese que si la luz incidente es perpendicular al polarizador, si solo tenemos en cuenta un polarizador, $\theta_1 = \frac{\pi}{2}$ entonces la onda transmitida tendrá intensidad nula. sin embargo, si ponemos otro polarizador en medio, tendremos de forma general $\theta_1 - \theta_2 \neq \frac{\pi}{2}$ por lo que la onda transmitida no necesariamente tendrá intensidad nula.\\
+Cabe aclarar que si la luz incidente es perpendicular al polarizador, si solo tenemos en cuenta un polarizador, $\theta_1 = \frac{\pi}{2}$ entonces la onda transmitida tendrá intensidad nula. sin embargo, si ponemos otro polarizador en medio, tendremos de forma general $\theta_1 - \theta_2 \neq \frac{\pi}{2}$ por lo que la onda transmitida no necesariamente tendrá intensidad nula.\\
 
 Aparte de lo mencionado anteriormente, otro experimento que se realizó durante la práctica fue el de 	doble rendija. Si se hace incidir luz monocromática coherente sobre una placa conductora (no deja pasar luz) con una rendija doble con una separación $d$, se observará un patrón de difracción. Este patrón ondulatorio se debe al principio de superposición del campo electromagnético, el cual dice que el campo electromagnético en un punto debido a dos fuentes es la suma de los campos producidos por cada fuente por separado en dicho punto \cite{Griffiths}. Debido a esto, si consideramos ondas, la suma de ambos campos es dependiente de la fase. Si se hace un análisis de los caminos que toman las ondas que pasan por cada una de las rendijas se llegará a la conclusión de que la interferencia destructiva se da cuando:
 
@@ -146,7 +146,7 @@ De esta manera, muchos otros fenómenos ópticos pueden ser caracterizados con l
 
 \section{Montaje Experimental}
 
-En general el montaje consistía de un emisor, un receptor y un goniómetro que se ubicaron en distintas configuraciones para realizar los diversos experimentos sugeridos en la guía proporcionada para la práctica. Los elementos más importantes del mismo semuestran en la figura \ref{fig: montaje} Es preciso aclarar que no se realizaron todos los experimentos puesto que no se disponía de toda la indumentaria necesaria para la realización de los mismos. Los experimentos que no se realizaron se mencionan a continuación:
+En general el montaje consistía de un emisor, un receptor y un goniómetro que se ubicaron en distintas configuraciones para realizar los diversos experimentos sugeridos en la guía proporcionada para la práctica. Los elementos más importantes del mismo semuestran en la figura\footnote{Imagen obtenida de http://sirius.ucsc.edu/demoweb/optics/wave.php \\} \ref{fig: montaje} Es preciso aclarar que no se realizaron todos los experimentos puesto que no se disponía de toda la indumentaria necesaria para la realización de los mismos. Los experimentos que no se realizaron se mencionan a continuación:
 
 \begin{itemize}
 	\item \textbf{Experimento 9: Fiber Optics} \\No se disponía de las "tubular plastic bags".
@@ -157,19 +157,19 @@ En general el montaje consistía de un emisor, un receptor y un goniómetro que 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.5\textwidth]{montaje}
-	\caption{ Montaje experimental usado en la práctica. }
+	\caption{ Montaje experimental usado en la práctica.}
 	\label{fig: montaje}
 \end{figure}
 
 El montaje específico para cada uno de los experimentos se describe a continuación.
 
 \subsection{Reflexión de Microondas}
-Para esta manipulación, se configuró el montaje que se muestra en la figura \ref{fig:reflexion} .\\
+Para esta manipulación, se configuró el montaje que se muestra en la figura\footnote{Imagen obtenida de la guía Microwave Optics.\\} \ref{fig:reflexion}.\\
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.5\textwidth]{}
-\caption{Montaje experimental para la refelxión de Microondas}
+\includegraphics[width=0.5\textwidth]{reflection}
+\caption{Montaje experimental para la refelxión de microondas.}
 \label{fig:reflexion}
 \end{figure}
 
@@ -177,16 +177,16 @@ A continuación, dejando el emisor de ondas fijo, a un ángulo de $45^o$ con res
 
 Acto seguido, la intensidad del receptor se ajustó en 30X para asegurarse de detectar las más pequeñas variaciones, y se procedió a mover el ángulo incidente desde $20^o$ a $90^o$. El receptor se movió angularmente hasta detectar un máximo. De allí se pudo inferir la relación entre el ángulo incidente y el ángulo reflejado.  \\
 
-Debe anotarse que dado que las ondas son esféricas, hay una medición extra dado que la onda recibida por detector no es sólamente la reflejada sino también se suma una porción directamente proveniente del emisor.\\
+Debe anotarse que dado que las ondas son esféricas, hay una medición extra dado que la onda recibida por detector no es sólamente la reflejada sino también se suma una porción directamente proveniente del emisor.
 
-\subsection{\label{sec:level2}Refracción a través de un prisma}
+\subsection{Refracción a través de un prisma}
 
-Para esta manipulación se configuró el montaje mostrado en la figura \ref{fig:refraccion}. El compartimiento triangular del centro actuaba como prisma. \\
+Para esta manipulación se configuró el montaje mostrado en la figura\footnotemark[6] \ref{fig:refraccion}. El compartimiento triangular del centro actuaba como prisma. 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{Pictures/refraccion}
-\caption{Montaje Experimental - Refracción por prisma}
+\includegraphics[width=0.5\textwidth]{refraction}
+\caption{Montaje experimental para la refracción por un prisma.}
 \label{fig:refraccion}
 \end{figure}
  
@@ -196,579 +196,415 @@ Con el emisor de ondas fijo, se procedió a mover el detector hasta detectar un 
 
 Una vez hallado este ángulo, con el diagrama de la figura \ref{fig:refraccion} se pueden determinar los ángulos incidente y refractado y así hallar el coeficiente de refracción del estireno por medio de la Ley de Snell. \\
 
-En este caso, el medio incidente es el estireno.\\
+En este caso, el medio incidente es el estireno.
  
-\subsection{\label{sec:level2}Polarización}
+\subsection{Polarización}
 
-Este experimento tuvo dos partes. En primer lugar, el montaje consistía en el que se muestra en la figura \ref{fig:polarizador1} con la excepción de que no había una rejilla de polarización en el medio. Con esto, receptor y emisor frente a frente se procedió a mover el cuerno del detector de ondas dejando el receptor fijo. De esta manera, las ondas producidas impactarían el detector con diferentes ángulos de polarización. \\ 
+Este experimento\footnote{El análisis de esta sección fue sugerido por el estudiante Jesús D. Prada G.} tuvo dos partes. En primer lugar, el montaje consistía en el que se muestra en la figura\footnotemark[6] \ref{fig:polarizador1} con la excepción de que no había una rejilla de polarización en el medio. Con esto, receptor y emisor frente a frente se procedió a mover el cuerno del detector de ondas dejando el receptor fijo. De esta manera, las ondas producidas impactarían el detector con diferentes ángulos de polarización.  
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{Pictures/polarizador1}
-\caption{Montaje Experimental - Polarización}
+\includegraphics[width=0.5\textwidth]{polarizer1}
+\caption{Montaje experimental para la primera manipulación de polarización.}
 \label{fig:polarizador1}
 \end{figure}
 
 Se midieron así, en aumentos de $5^o$ las señales recibidas para un rango de ángulos de polarización entre $0^o$ y $90^o$. \\
 
-En la segunda parte se prepararon el emisor y el receptor con direcciones paralelas de polarización, se incluyó la rejilla de polarización imitando el montaje en la figura \ref{fig:polarizacion}, y ésta se ubicó en ángulo de $0^o$,$22.5^o$,$45^o$, $67.5^o$ y $90^o$ con respecto al ángulo del emisor. Luego se  se repitieron las medidas para $0^o$, $45^o$ y $90^o$, esta vez configurando el emisor y el receptor en direcciones perpendiculares de polarización.\\ 
+En la segunda parte se prepararon el emisor y el receptor con direcciones paralelas de polarización, se incluyó la rejilla de polarización imitando el montaje en la figura\footnotemark[6] \ref{fig:polarizador2}, y esta se ubicó en ángulo de $0^o$,$22.5^o$,$45^o$, $67.5^o$ y $90^o$ con respecto al ángulo del emisor. Luego se  se repitieron las medidas para $0^o$, $45^o$ y $90^o$, esta vez configurando el emisor y el receptor en direcciones perpendiculares de polarización.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{Pictures/polarizacion}
-\caption{Montaje Experimental - Polarización 2}
-\label{fig:polarizacion}
+\includegraphics[width=0.5\textwidth]{polarizer2}
+\caption{Montaje experimental para la segunda manipulación de polarización.}
+\label{fig:polarizador2}
 \end{figure}
 
-\subsection{\label{sec:level2}Determinación de $ \lambda $}
-\textit{Interferencia de doble rendija} \\
+\subsection{Interferencia de doble rendija}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{Pictures/Interferencia}
-\caption{Montaje Experimental - Interferencia a Doble Rendija}
+\includegraphics[width=0.5\textwidth]{doubleslit}
+\caption{Montaje experimental para la interferencia de doble rendija}
 \label{fig:Interferencia}
 \end{figure}
 
-En este experimento se armó el montaje mostrado en la figura \ref{fig:Interferencia}. Dejando el emisor de ondas fijo, se movió el detector a través del ángulo $ \theta $ mostrado en la figura. Para un barrido de este ángulo entre $0^o$ y $85^o$ en aumentos de $5^o$, se anotó el valor de la intensidad detectada por el receptor. \\
+En este experimento se armó el montaje mostrado en la figura\footnotemark[6] \ref{fig:Interferencia}. Dejando el emisor de ondas fijo, se movió el detector a través del ángulo $ \theta $ mostrado en la figura. Para un barrido de este ángulo entre $0^o$ y $85^o$ en aumentos de $5^o$, se anotó el valor de la intensidad detectada por el receptor. \\
 
-Se repitieron las medidas cambiando la distancia de separación entre rendijas.\\ 
+Se repitieron las medidas cambiando la distancia de separación entre rendijas.
 
-\textit{Ondas estacionarias} \\
-
-Para medir ondas estacionarias se utilizó como reflector el detector mismo. Se ubicaron frente a frente ambos equipos como se muestra en la figura \ref{fig:estacionarias}. \\
+\subsection{Ondas estacionarias} 
+Para medir ondas estacionarias se utilizó como reflector el detector mismo. Se ubicaron frente a frente ambos equipos como se muestra en la figura\footnotemark[6] \ref{fig:estacionarias}. \\
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{Pictures/estacionarias}
-\caption{Montaje Experimental - Ondas estacionarias}
+\includegraphics[width=0.5\textwidth]{stationary}
+\caption{Montaje experimental para la medición de ondas estacionarias}
 \label{fig:estacionarias}
 \end{figure}
 
-A continuación, se ubicó el detector en donde éste mostrara la lectura de un máximo, y acto seguido se procedió a deslizar el detector hacia atrás. En dos manipulaciones diferentes, se contaron 20 y 30 máximos respectivamente y se procedió a determinar $ \lambda $ con la fórmula para los máximos de una onda estacionaria, la cual es la misma condición presentada en la ecuación \ref{eq:Michelson}. \\ 
+A continuación, se ubicó el detector en donde éste mostrara la lectura de un máximo, y acto seguido se procedió a deslizar el detector hacia atrás. En dos manipulaciones diferentes, se contaron 20 y 30 máximos respectivamente y se procedió a determinar $ \lambda $ con la fórmula para los máximos de una onda estacionaria, la cual es la misma condición presentada en la ecuación \eqref{eq:Michelson}. 
 
-\textit{Espejo de Lloyd} \\
+\subsection{Espejo de Lloyd} 
 
-Para determinar $ \lambda $ se utilizó también el montaje del espejo de Lloyd mostrado en la figura \ref{fig:espejo}. En este caso el receptor mostrará una señal máxima cuando ambos caminos recorridos por la onda emitida estén en fase. \\
+Para determinar $ \lambda $ se utilizó también el montaje del espejo de Lloyd mostrado en la figura \ref{fig:espejo}. En este caso el receptor mostrará una señal máxima cuando ambos caminos recorridos por la onda emitida estén en fase. 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{Pictures/espejo}
-\caption{Montaje Experimental - Espejo de Lloyd}
+\includegraphics[width=0.5\textwidth]{lloyd}
+\caption{Montaje experimental para el espejo de Lloyd}
 \label{fig:espejo}
 \end{figure}
 
 Para medir este fenómeno se dejan reflector y emisor fijos, separados a una distancia idéntica desde el centro del sistema y se desplaza el reflector hacia atrás. \\
 
-En primer lugar, debe ubicarse el reflector en el primer mínimo que sea posible detectar y acto seguido desplazarlo hacia atrás hasta encontrar cuando menos 10 mínimos de intensidad. De esta forma, la diferencia de caminos debe cumplir la ecuación \ref{eq:Lloyd} para producir interferencia constructiva\\
+En primer lugar, debe ubicarse el reflector en el primer mínimo que sea posible detectar y acto seguido desplazarlo hacia atrás hasta encontrar cuando menos 10 mínimos de intensidad. De esta forma, la diferencia de caminos debe cumplir la ecuación \eqref{eq:Lloyd} para producir interferencia constructiva\\
 
-La medición se realizó dos veces para diferentes separaciones entre emisor y receptor.\\
+La medición se realizó dos veces para diferentes separaciones entre emisor y receptor.
 
 
-\textit{Interferómetro de Fabry-Perot} \\
+\subsection{Interferómetro de Fabry-Perot} 
 
 En este caso se recreó el interferómetro de Fabry-Perot, haciendo uso del montaje mostrado en la figura \ref{fig:fabryperot}. Durante esta manipulación se pretendía encontrar la longitud de onda así que se procedió de manera similar al experimento de ondas estacionarias y al espejo de Lloyd.\\
 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{Pictures/fabryperot}
-\caption{Montaje Experimental - Interferómetro de Fabry-Perot}
+\includegraphics[width=0.5\textwidth]{fabry}
+\caption{Montaje experimental - Interferómetro de Fabry-Perot}
 \label{fig:fabryperot}
 \end{figure}
 
-Dejando el emisor fijo se ubicó el receptor en un mínimo. Acto seguido, se procedió a mover el mismo hacia atrás hasta haber pasado por n mínimos de intensidad. Así pues, con la fórmula \ref{eq:Michelson}, se determinó la longitud de onda. \\ 
+Dejando el emisor fijo se ubicó el receptor en un mínimo. Acto seguido, se procedió a mover el mismo hacia atrás hasta haber pasado por n mínimos de intensidad. Así pues, con la fórmula \ref{eq:Michelson}, se determinó la longitud de onda. 
 
-\textit{Interferómetro de Michelson} \\
+\subsection{Interferómetro de Michelson} 
 
-En este experimento se trató de recrear el experimento de Michelson-Morley con microondas, haciendo uso del montaje mostrado en la figura \ref{fig:intmichelson}. \\
+En este experimento se trató de recrear el experimento de Michelson-Morley con microondas, haciendo uso del montaje mostrado en la figura \ref{fig:intmichelson}. 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\linewidth]{Pictures/intmichelson}
-\caption{Montaje Experimental - Interferómetro de Michelson}
+\includegraphics[width=0.5\textwidth]{michelson}
+\caption{Montaje experimental para el interferómetro de Michelson}
 \label{fig:intmichelson}
 \end{figure}
 
 Se ubicó el detector en el mínimo más cercano encontrado con respecto al centro del sistema y se procedió a deslizar el equipo hacia atrás contando mínimo diez mínimos de intensidad. Con una fórmula similar a las utilizadas anteriormente, se determinó $ \lambda $. \\
 
-La fórmula utilizada es la misma que para el interferómetro de Fabry-Perot. \\
-
-
-\subsection{\label{sec:level2}Fibra Óptica}
-
-Para el experimento de fibra óptica se utilizaron nuevamente las partículas de estireno, sólo que en esta ocasión se configuró una suerte de fibra óptica al ponerlas de relleno en una bolsa larga de plástico. \\
-
-El experimento es de énfasis cualitativo y consistió en estudiar cómo, por medio de la fibra óptica, el detector puede leer la intensidad de la onda incidente en diferentes configuraciones. \\
-
-Dichas configuraciones consistían en mover el cuerno del emisor y el receptor cambiando el ángulo de polarización como también ver cómo cambiaba la señal al cambiar la curvatura de la fibra. \\ 
-
-Se quería comprobar también que si uno de los extremos no se encontraba debidamente introducido en los cuernos de los equipos, la lectura sería cero. \\
+La fórmula utilizada es la misma que para el interferómetro de Fabry-Perot. 
 
 
 \section{Resultados y análisis}
 
-\subsection{Radiación de fondo}
-En este experimento se midió la radiación de fondo del salón de clase. No se colocaron frente al medidor muestras de ningún tipo, y se dejo efectuar el conteo de la radiación natural del ambiente. Los datos se muestran en la tabla \ref{tabla1}.
+\subsection{Reflexión de Microondas}
+
+Los datos obtenidos se muestran en la tabla \ref{tabla1}.\\
+
+Al mover el ángulo de incidencia, la máxima señal recibida también cambiaba. Al final, se encontró, como se esperaba por la teoría electromagnética, que el ángulo de incidencia y el ángulo de reflexión son el mismo con un error de $2^o$ en promedio para cada medida. \\
+
+Es preciso notar que para valores grandes, las mediciones se atrofiaban puesto que se estaba recibiendo, principalmente, la onda directamente en lugar de una proción reflejada. Este fenónemo es especialmente notable desde el ángulo de $50^o$.
 
 \begin{table}[h!]
-	\caption{\label{tabla1}Conteos para la radiación natural.}
+	\caption{\label{tabla1}Reflexión.}
 	\begin{ruledtabular}
-		\begin{tabular}{|M{3.5cm}|M{4.5cm}|}
-			Número de la medición & $\frac{C_{0}}{conteos / 60\ s}$\\
+		\begin{tabular}{|M{3.5cm}|M{3.5cm}|}
+			$\theta_I\ (\pm 1^o)$ & $\theta_R\ (\pm 1^o)$\\
 			\hline
-			1 & 19 \\
-			2 & 14 \\
-			3 & 19 \\
-			4 & 22 \\
-			5 & 16 \\
+			20 & 20 \\
+			30 & 31 \\
+			40 & 40 \\
+			50 & 50 \\
+			60 & 55 \\
+			70 & 57 \\
+			80 & 80 \\
+			90 & 90 \\
 		\end{tabular}
 	\end{ruledtabular}
 \end{table}
 
-El promedio fue de 18 conteos/min. con error \cite{error} de 9 conteos/min, los cuales van a ser considerados para los cálculos sobre mediciones posteriores de muestras radioactivas. \\
+\subsection{Refracción a través de un prisma} 
 
-Teniendo en cuenta que no se tenían muestras radioactivas cerca del contador, se pudo verificar que existe radiacion en el ambiente cotidiano, por lo cual se concluye que dicho fenómeno natural es algo con lo que los seres vivos interactuamos constantemente.\\
+En primer lugar, para tomar en cuenta la refracción causada por el triángulo, se demostró que éste no hacía mayor cambio en la señal recibida. Así pues, se procedió a determinar el índice de refracción del estireno. \\
 
-Podemos concluir además que:
+Para la máxima lectura, se tuvo $ \theta = 10 \pm 1^o $. Por la configuración misma del sistema, se tiene que en el diagrama de la figura \ref{fig:refraccion}, $ \theta_1 = \phi = 20\pm1^o $, siendo $ \phi $ el ángulo menor del triángulo que conforma el prisma. \\
 
-\begin{itemize}
-	\item No se tienen un conteo constante en las mediciones puesto que existe una desviación estándar de los datos de 3,08, evidenciando una alta dispersión de los mismos. 
-	
-	\item La radiación medida puede venir de múltiples fuentes naturales, pero posiblemente se compone en su mayoría de radiación cósmica. Los materiales de construcción, el suelo y el agua contienen también pequeñas concentraciones de materiales radioactivos pero su intensidad es muy baja para ser medida por el contador. 
-\end{itemize}
-
-\subsection{Variaciones aleatorias en los conteos}
-
-En este experimento se realizaron 50 mediciones de 10 segundos cada una, en las cuales se ponía de forma vertical el tubo contador, apuntando directamente hacia una manta radioactiva tal y como se muestra en la figura \ref{fig: manta}.
-
-
-
-Los datos obtenidos se muestran en la tabla \ref{tabla2}.\\
-
-\begin{table}[h!]
-	\caption{\label{tabla2}Conteos para las variaciones de la radiación natural.}
-	\begin{ruledtabular}
-		\begin{tabular}{|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|}
-			Med. \# & Cont.  10 s & Med. \# & Cont.  10 s & Med. \# & Cont.  10 s\\
-			\hline
-			1 & 101 & 18 & 79 & 35 & 86\\
-			2 & 72 & 19 & 76 & 36 & 92\\
-			3 & 80 & 20 & 95 & 37 & 77\\
-			4 & 96 & 21 & 105 & 38 & 87\\
-			5 & 70 & 22 & 68 & 39 & 82\\
-			6 & 84 & 23 & 114 & 40 & 101\\
-			7 & 91 & 24 & 102 & 41 & 91\\
-			8 & 89 & 25 & 87 & 42 & 86\\
-			9 & 76 & 26 & 88 & 43 & 69\\
-			10 & 86 & 27 & 93 & 44 & 80\\
-			11 & 79 & 28 & 79 & 45 & 86\\
-			12 & 96 & 29 & 92 & 46 & 85\\
-			13 & 105 & 30 & 76 & 47 & 97\\
-			14 & 88 & 31 & 85 & 48 & 93\\
-			15 & 79 & 32 & 101 & 49 & 92\\
-			16 & 80 & 33 & 93 & 50 & 87\\
-			17 & 79 & 34 & 77 &  & \\
-		\end{tabular}
-	\end{ruledtabular}
-\end{table}
-
-El promedio de estas mediciones fue $\bar{C} = 87.04$ conteos/10 s con un error de $9.32$ conteos/10 s. Dado lo anterior, se obtuvo un error porcentual de $10.72 \%$ en estas mediciones, lo cual es aceptable teniendo en cuenta las múltiples fuentes de error, entre ellas la ralización de otros experimentos de radiación con fuentes como el radio el mesas aledañas y el hecho de que al pricipio no sabíamos a qué parte de la manta apuntar con el contador, lo cual rodujo medidas incoherentes al principio del experimento.\\
-
-Las medidas que más difieren del valor promedio fueron la medición \# 2 y la medición \# 23, registrando valores de $72$ y $114$ conteos respectivamente, los cuales están claramente fuera del error de la medida, potencialmente por las fuentes de error explicadas previamente.\\
-
-La gráfica de frecuencias solicitada se muestra en la figura \ref{fig: frecuencia}.
-
-
-
-Dicha gráfica evidencia claramente la concentración de los datos alrededor del promedio calculado previamente y ademas perimite concluir que los datos extremos de las mediciones \# 2 y \# 23 son casos aislados con frecuencia baja. Además de lo anterior, calculamos que el $70 \ \%$ de los datos están dentro del error calculado para la medida $87.04 \pm 9.32$. Este valor indica que se realiza una buena toma de datos dado que el valor teórico esperado de los datos dentro de ese rango es del $68.3\ \%$.
-
-\subsection{Rocas radioactivas}
- 
-Al igual que en el experimento anterior, el montaje experimental se muestra en la figura \ref{fig: montaje}. En este caso, el objetivo es determinar a partir de los conteos hechos con el contador Geiger-Müller si una sustancia es radioactiva o no, es decir, si produce la suficiente radiación ionizante. Se tomaron 3 muestras de columbita (mineral proporcionado dentro de los elementos de laboratorio) y medimos los conteos detectados. En la tabla \ref{tabla3} se pueden observar los resultados de estas mediciones.
-
-\begin{table}[h!]
-	\caption{\label{tabla3}Conteos para diversas muestras de columbita.}
-	\begin{ruledtabular}
-		\begin{tabular}{|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|}
-			Sust. & $C_{1}$ / 60 s & $C_{2}$ / 60 s & $C_{3}$ / 60 s & $C_{4}$ / 60 s & $\bar{C}$ /\ \ \ \  60 s\\
-			\hline
-			Aire & 19 & 21 & 19 & 13 & 18\\
-			Colum. 1 & 33 & 40 & 34 & 40 & 36.75\\
-			Colum. 4 & 47 & 49 & 35 & 39 & 42.5\\
-			Colum. 7 & 103 & 79 & 117 & 89 & 97\\
-		\end{tabular}
-	\end{ruledtabular}
-\end{table}
-
-A partir de los datos mostrados en la tabla anterior se evidencia claramente un mayor conteo para la columbita 7 que para las demás. A partir de lo consultado en REFERENCIA se espera que para una sustancia radiactiva se obtengan al rededor de 200 conteos/min., razón por la cual podemos concluir que ninguna de las muestras analizadas podrían ser consideradas radioactivas, y a pesar de que la columbita 7 es que más actividad resgistró de todas, con un conteo promedio de $\bar{C} = 79$ al tener en cuenta al aire, este conteo no es lo suficiente alto para considerar dicho mineral como una amenaza para la salud. \\
-
-Además de lo anterior, podemos concluir que el contador de Geiger es un instrumento extremadamente útil para la detección de materiales radioactivos.
-
-\subsection{Sales radioactivas}
- 
-Nuevamente se usó el mismo montaje de los experimentos anteriores. En este experimento se analizaron los conteos obtenidos cuando ponemos diferentes tipos de sales bajo el tubo contador. Los resultados obtenidos y las sales usadas se muestran en la tabla \ref{tabla4}.
-
-\begin{table}[h!]
-	\caption{\label{tabla4}Conteos para diversas muestras de sales.}
-	\begin{ruledtabular}
-		\begin{tabular}{|M{1.4cm}|M{1.4cm}|M{1.4cm}|M{1.4cm}|M{1.4cm}|}
-			Sust. & $C_{1}$/\ \ \ \ \ \ \ \ \ 100 s & $C_{2}$/\ \ \ \ \ \ \ \ \ 100 s & $C_{3	}$/\ \ \ \ \ \ \ \ \ 100 s & $\bar{C}$/\ \ \ \ \ \ \ \ \ 100 s\\
-			\hline
-			Aire & 35 & 30 & 36 & 33.66 \\
-			$KCL$ & 40 & 50 & 43 & 44.33 \\
-			$CaCl_{2}$ & 33 & 32 & 24 & 29.66\\
-			$CuSO_{4}$ & 28 & 31 & 20 & 26.33\\
-		\end{tabular}
-	\end{ruledtabular}
-\end{table}
-
-Es importante resaltar que la radiación del aire aumentó ligeramente para estas emmisiones y la razón para esto es que en la mesas contiguas estaban trabajando con muestras de radio al momento de realizar las mediciones. A pesar de lo mencionado anteriormente, ninguna de estas sales puede ser considerada como radioactiva de acuerdo al conteo de corte previamente aludido. La sal que menos radiación emitió fue el sulfato de cobre y la que más emitió fue la sal de cocina, algo realmente o esperado dado que se esperaba que la sal de cocina fuera la de menor emisión puesto que es una sustancia para el consumo humano. Dado esto, se puede concluir que las sales examinadas no representan ningún peligro para la salud humana.\\
-
-Ahora bien, note que al tener en cuenta al aire para calcular los promedios de conteos  se obtienen valores negativos tanto para el cloruro de calcio como para el sulfato de cobre. Este valor negativo puede explicarse teniendo en cuenta el trabajo de grupos aledaños con muestras altamente radioactivas como el radio, además de que dado que el tubo contador se ubica lo suficientemente cerca de la muestra, es muy probable que dicho instrumento solo haya detectado la radiación de la  muestra y no la radiación del aire. Por tanto, en todas los experimentos de este tipo, en los que el contador se encuentre de forma vertical sobre la muestra y a una distancia tan corta, y sobre todo cuando trabajamos con bajos conteos como en este caso, es posible que se deba ignorar la radiación del aire y tratar de no realizar mediciones mientras otros grupos trabajen con muestras altamente radioactivas como el radio.
-
-\subsection{Distinción entre los tipos de radiación}
-
-El objetivo de los experimentos eplicados a continuación era determinar el tipo y la intensidad de la radiación producida por rocas radioactivas (columbita) y por una manta incandescente.\\
-
-En el primer experimento se utilizó la columbita 7 y se evaluó como variaban sus conteos dependiendo del material que se imponía entre el contador y la columbita. Dado a una observación sobre el hehcho de que había un lado de la columbita que emitía más radiación, primero se determino el lado que más emitía con el fin de poder evaluar correctamente la parte del bloqueo. Los resultados de este experimento se muestran en la tabla \ref{tabla5}.
-
-\begin{table}[h!]
-	\caption{\label{tabla5}Conteos para la columbita 7 teniendo en cuenta materiales de bloqueo.}
-	\begin{ruledtabular}
-		\begin{tabular}{|M{1.4cm}|M{1.4cm}|M{1.4cm}|M{1.4cm}|M{1.4cm}|}
-			Sust. & $C_{1}$/\ \ \ \ \ \ \ \ \ 100 s & $C_{2}$/\ \ \ \ \ \ \ \ \ 100 s & $C_{3}$/\ \ \ \ \ \ \ \ \ 100 s & $\bar{C}$/\ \ \ \ \ \ \ \ \ 100 s\\
-			\hline
-			Lado 1 & 160 & 167 & 159 & 162 \\\hline
-			Lado 2 & 199 & 247 & 262 & 236 \\\hline
-			Lado 2 - Papel & 219 & 209 & 201 & 209.66\\\hline
-			Lado 2 - Placa de plomo & 51 & 55 & 51 & 52.33\\
-		\end{tabular}
-	\end{ruledtabular}
-\end{table}
-
-Dado que se encontró que el lado que más emitía era el lado 2, se usó este lado para las restantes dos mediciones. De los daros mostrados previamente se puede observar que la radiación alfa era un constituyente minoritario de la radiación emitida por la columbita y que, por su parte, la radiación beta era el mayor constituyente de la misma. Esto se tienen debido a que los datos del papel, que bloquea la radiación alfa, no muestra un cambio muy significativo con respecto a los datos sin bloqueo alguno, mientras que los datos del plomo, que bloquea la radiación alfa y beta, sí muestran un cambio significativo con respecto a cuando no hay cambio alguno.\\
-
-Cuantitativamente tenemos que, en promedio, el papel bloquea el $11.16 \%$ de la radiación (alfa) mientras que el plomo bloquea el $77.83 \%$ de la radiación (beta). El restante $11.01 \%$ es radiación gama. Lo anterior claramente evidencia que las barreras de protección contra la radiación son de suma importancia ya que reducen considerablemente (en el caso del plomo), la cantidad de radiación a la que somo expuestos. Este también es el caso de los bloqueadores solares puesto qeu su función es impedir tanto como sea posible la penetración de los rayos UV (radiación electromagnética) en nuestro organismo.\\\\\\
-
-En lo que respecta al segundo experimento, se utilizó el mismo montaje anterior cambiando la columbita por la manta radioactiva. Los resultados obtenidos se muestran en la tabla \ref{tabla6}.
-
-\begin{table}[h!]
-	\caption{\label{tabla6}Conteos para la manta incasdesente teniendo en cuenta materiales de bloqueo.}
-	\begin{ruledtabular}
-		\begin{tabular}{|M{2.cm}|M{2.cm}|M{2.cm}|M{2.cm}|}
-			Medición \# & Sin bloqueo & Papel & Placa de plomo \\
-			\hline
-			$C_{1}$ / 60 s & 357 & 327 & 33\\\hline
-			$C_{2}$ / 60 s & 383 & 329 & 24\\\hline
-			$C_{3}$ / 60 s & 364 & 332 & 27\\\hline
-			$C_{4}$ / 60 s & 378 & 329 & 30\\\hline
-			$C_{5}$ / 60 s & 369 & 325 & 34\\\hline
-			$\bar{C}$/ 60 s& 370.2 & 328.4 & 29.6\\
-		\end{tabular}
-	\end{ruledtabular}
-\end{table}
-
-Los resultados obtenidos son completamente análogos a los comentados previamente para la columbita. Cuantitativamente tenemos que, en promedio, el $11.29 \%$ de la radiación emitida por la manta era radiacón alfa, el $82.0 \%$ era radiación beta y el restante $6.71 \%$ era radiación gamma.\\
-
-Cabe resaltar que la constitución porcentual de la radiación emitida tanto por la columbita como por la manta radioactiva es similar dado los resultados cercanos expuestos previamente.
-
-\subsection{Distancia de fuentes radioactivas}
-
-El objetivo de este experimento era determinar cómo variaba el conteo para una muestra altamente radioactiva como el radio. El montaje experimental usado se muestra en la figura \ref{fig: radio1}.
-
-
-
-Los datos obtenidos se muestran en la tabla \ref{tabla7}. 
-
-\begin{table}[h!]
-	\caption{\label{tabla7}Conteos para el radio a diversas distancias.}
-	\begin{ruledtabular}
-		\begin{tabular}{|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|M{1.cm}|}
-			Sep. (cm)   & $C_{1}$/\ \ \ \ \ \ \ \ \ 10 s & $C_{2}$/\ \ \ \ \ \ \ \ \ 10 s & $C_{3}$/\ \ \ \ \ \ \ \ \ 10 s & $C_{4}$/\ \ \ \ \ \ \ \ \ 10 s & $C_{5}$/\ \ \ \ \ \ \ \ \ 10 s & $\bar{C}$/\ \ \ \ \ \ \ \ \ 10 s\\
-			\hline
-			13 & 2323 & 2324 & 2331 & 2405 & 2314 & 2339.4\\\hline
-			12 & 2805 & 2728 & 2736 & 2812 & 2776 & 2771.4\\\hline
-			11 & 3199 & 3154 & 3122 & 3170 & 3267 & 3182.4\\\hline
-			10 & 3697 & 3643 & 3665 & 3611 & 3598 & 3642.8\\\hline
-			9  & 4354 & 4222 & 4410 & 4222 & 4398 & 4321.2\\\hline
-			8  & 5134 & 5290 & 5177 & 5133 & 5133 & 5173.4\\\hline
-			7  & 6330 & 6249 & 6113 & 6212 & 6246 & 6230\\\hline
-			6  & 7452 & 7243 & 7295 & 7241 & 7260 & 7298.2\\\hline
-			5  & 9375 & 9251 & 9360 & 9075 & 9284 & 9269 \\
-		\end{tabular}
-	\end{ruledtabular}
-\end{table}
-
-Cabe aclarar que se usó un tiepo de conteo de 10 s puesto que la muestra de radio proporcionadad era de 10 mg y se observó que si se dejaba durante 60 s se saturaba el dispositivo.\\
-
-Los anteriores datos peromiten ver, como se esperaba, el radio es una sustancia extremadamente radioactiva y por tanto se tomaron todas las precauciones indicadadas para la manipulación de la misma.\\
-
-Además de lo anterior, la figura \ref{fig: radio2} muestra la dependencia funcional de los datos de la tabla \ref{tabla7}. En dicha gráfica se evidenciando un aparente comportamiento exponencial  y decreciente de los datos. Allende de esto, es importante resaltar que aún con el tiempo corto de medición, el conteo aumentaba considerablemente al acercar la muestra al contador, indicando la gran magnitud de la radiación emitida por esta muestra.
-
-
-
-\subsection{Rango de la raciación alfa}
-
-El objetivo de este experimento es evidenciar y determinar cuantitativmente el bloqueo de la radiación alfa por una hoja de papel. El montaje experimental usado fue el mismo del experimento anterior, tan solo que entre el radio y el contador se antepuso una hoja de papel. Los resultados obtenidos se muestran en la tabla \ref{tabla8}
-
-\begin{table}[h!]
-	\caption{\label{tabla8}Conteos para el radio a diversas distancias con y sin papel.}
-	\begin{ruledtabular}
-		\begin{tabular}{|M{1.7cm}|M{1.7cm}|M{1.7cm}|M{1.7cm}|}
-			Sep. (cm)    & $C_{aire}$ / 10 s & $C_{pap}$ / 10 s & \% alfa\\
-			\hline
-			5    & 9441 & 6414 & 32.06\\\hline
-			6.5  & 6692 & 4576 & 31.61\\\hline
-			8    & 4963 & 3413 & 31.23\\\hline
-			9.5  & 4125 & 2629 & 36.26\\\hline
-			11   & 3234 & 2217 & 31.44\\\hline
-			12.5 & 2620 & 1753 & 33.09\\
-		\end{tabular}
-	\end{ruledtabular}
-\end{table}
-
-En promedio se obtuvo que el $32.61\%$ de la radiación proveniente de la muestra de radio era radiación alfa. Dado a que no se trabajó la muestra de radio sugerida en la guía \cite{guia} podemos observar un comportamiento prácticamente constante de la radiación bloqueada por la hoja de papel. Era imposible acercarse más dado a una inminente saturación del contador de Geiger. Dado esto, lo único que podemos concluir aquí es nuevamente la gran intensidad del radio frente a las demás fuentes radiactivas, puesto que inclusive su composición de radiación alfa es tres veces más grande que las de las muestras previamente examinadas.
-
-\subsection{Materiales que bloquean la radiación beta}
-
-Para diferentes materiales y diferentes grosores, se midió el comportamiento de la radiación que atraviesa los mismos. El objetivo es verificar que la radiación que atraviesa el material disminuye a medida que aumenta el grosor de dicho material. También se desea observar qué materiales bloquean mejor la radiación, particularmente la radiación beta. \\
-
-De acueredo a lo mencionado en la guía\cite{guia} y los experimentos previos, sabemos que el plomo es el material que mejor dispersa este tipo de radiación pero desafortunadamente ,en el laboratorio no había suficientes capas de distintos grosores de estos materiales para desarrollar tomas de datos más completas. Teniendo en cuenta lo anterior, los datos obtenidos se muestran en la tabla \ref{tabla9}.
-
-\begin{table}[h!]
-	\caption{\label{tabla9}Conteos para el radio y diversos materiales de bloqueo.}
-	\begin{ruledtabular}
-		\begin{tabular}{|M{1.4cm}|M{1.4cm}|M{1.4cm}|M{1.4cm}|M{1.4cm}|}
-			Mater./ Ancho (in)    & $C_{1}$ / 10 s & $C_{2}$ / 10 s & $C_{3}$ / 10 s & $\bar{C}$ / 10 s\\
-			\hline
-			Aluminio &  &  &  &\\\hline
-			0 & 5802 & 5817 & 5738 & 5785.66\\
-			0.02 & 790 & 777 & 764 & 777\\
-			0.032 & 500 & 480 & 466 & 482\\
-			0.04  & 387 & 341 & 374 & 367.33\\
-			0.05  & 245 & 274 & 280 & 266.33\\
-			0.063 & 233 & 223 & 226 & 227.33\\\hline
-			Plomo &  &  &  &\\\hline
-			0 & 5752 & 5710 & 5614 & 5692\\
-			0.064 & 82 & 80 & 76 & 238\\
-			0.125 & 72 & 73 & 68 & 71\\
-			0.25  & 68 & 64 & 56 & 62.66\\\hline
-			Plástico &  &  &  &\\\hline
-			0 & 5725 & 5783 & 5724 & 5744\\
-			0.03 & 1613 & 1697 & 1596 & 1635.33\\
-			0.04  & 1233 & 1305 & 1255 & 1264.33\\
-		\end{tabular}
-	\end{ruledtabular}
-\end{table}
-
-A partir de los datos anteriores es evidente que lo mencionado previamente acrca de la efectividad del plomo para bloquear la radiación alfa. Esto puesto que es el que presenta la variación más significativa de los datos con y sin bloqueo. Además, dichos datos permiten también concluir nuevamente que la mayor parte de la radiación emitida por la muestra, en este caso el radio, es radiación beta y que, como se esperaba, entre mayor sea el grosor de la pantalla de bloqueo, menor es la radiación que deja pasar la misma.\\
-
-Ahora bien, las gráficas de los datos se muestran en la figuras \ref{fig: bloqueo1},\ref{fig: bloqueo2} y \ref{fig: bloqueo3}.\\
-
-
-
-
-
-
-
-
-Nuevamente, en las figuras anteriores se evidencia un decaimiento exponencial de la cantidad de radiación que penetra la placa a medida que aumenta el grosor de la misma. Este comportamiento se ajusta, con buena aproximación, a la ley exponencial dada por la ecuación \eqref{exponential}.
+Así, se tiene que $ \theta_2 = \theta_1 + \theta = 30\pm1^o $. Asumiendo el ínidce de refracción del aire como 1, se tiene con la ecuación \ref{eq:refraccion}:
 
 \begin{equation}
-\label{exponential}
-I = I_{0}e^{-\mu x}
+\frac{n_1}{n_2} = \frac{\sin{\theta_2}}{\sin{\theta_1}}= 1.462\pm0.08
 \end{equation}
 
-Donde $\mu$ es el coeficiente de reducción del material usado y $x$ es el grosor del material. Dado que no tenemos un conocimiento suficiente acerca de la ecuación presentada anteriormente, es intrascendente hacer una análisis matemático profundo de la misma, pero podemos concluir que dicha ecuación se ajusta apropiadamente a los datos obtenidos, y las gráficas anteriores evidencian, además del decrecimiento exponencial  mencionado anteriormente, la importancia del grosor de las barreras que bloquean la radiación, particularmente la radiación beta.
+De esta manera, puesto que $ n_2 = 1 $, encontramos que el índice de refracción del estireno es precisamente $1.4162\pm0.08$, donde el error absoluto fue calculado con propagación de error\footnotemark[3] sobre la fórmula usada. \\
 
-\subsection{Radiación beta y campos magnéticos}
+El valor teórico está en 1.5916, lo cual demuestra un error absoluto del $11\%$, lo cual no está mal al considerar las distintas fuentes de error. Estas fuentes de error confluyen en la aguja del receptor, la cual es muy sensible y puede ser perturbada por factores ambientales electromagnéticos o por factores físicos como el movimiento de la mesa, el cual no era nada suave dada la fricción con los instrumentos.
 
-En este experimento se pretendía observar el comportamiento del conteo de radiación al interponer verticalmente un campo magnético entre la fuente radioactiva y el contador. Además, se variaron los ángulos entre la muestra y el contador para observar la dirección de desvío de la radiación. La idea es que el contador Geiger barra todos los ángulos tal y como se muestra en la figura \ref{fig: montaje2}, haciendo un mapeo de las trayectorias \footnote{Como estamos considerando partículas cuánticas no podemos hablar de trayectorias definidas, sin embargo analizaremos en que zonas es más probable encontrar partículas $\beta$ dispersadas por la acción del campo.} de las partículas. Luego de hacer lo mencionado previamente, se cambió la disposición de los imanes con el fin de invertir el campo magnético, y se realizó nuevamente la toma de datos.\\
+\subsection{Polarización}
+En este experimento no necesitabamos calcular ningún valor experimental, sino verificar que se cumplía la  relación de intensidad para el paso de luz a través de uno o dos polarizadores. Dicha relación puede ser recordada con las ecuaciones \ref{eq:polarizador} y \ref{eq:polarizador2}.\\
 
-
-
-Los datos obtenidos se muestran en la tabla \ref{tabla10} y la gráfica de los mismos se muestra en la figura \ref{fig: angles}.\\
+En primera instancia se midió la relación de polarización sin polarizadores. Esto se pudo hacer dado que el emisor emitía luz polarizada, y el receptor estaba polarizado, es decir, solo detectaba la componente de la luz que llegaba que era paralela a su dirección de polarización. En este caso, se pudo cubrir un rango amplio con bastantes mediciones, lo cual está consignado en la tabla \ref{table:polarizador1}.
 
 \begin{table}[h!]
-	\caption{\label{tabla10}Conteos al interponer un campo magnético entre el radio y el contador.}
+	\caption{\label{table:polarizador1} Intensidad de polarización a diferentes ángulos.}
 	\begin{ruledtabular}
-		\begin{tabular}{|M{2.7cm}|M{2.7cm}|M{2.7cm}|}
-			Ángulo (sexagesimal) & Imanes / 10 s & Imanes invertidos / 10 s \\
-			\hline
-			0  & 877 & 1383 \\\hline
-			10 & 843 & 1183 \\\hline
-			20 & 870 & 1000 \\\hline
-			30 & 774 & 707 \\\hline
-			40 & 565 & 515 \\\hline
-			50 & 437 & 381 \\\hline
-			60 & 485 & 361 \\\hline
-			70 & 540 & 497 \\\hline
-			80 & 516 & 459 \\\hline
-			90 & 457 & 413 \\\hline
-			-10 & 1034 & 1825 \\\hline
-			-20 & 1266 & 1749 \\\hline
-			-30 & 1846 & 1608 \\\hline
-			-40 & 1884 & 1162 \\\hline
-			-50 & 1618 & 767 \\\hline
-			-60 & 1275 & 711 \\\hline
-			-70 & 1144 & 723 \\\hline
-			-80 & 1002 & 635 \\\hline
-			-90 & 875 & 648 \\\hline
-		\end{tabular}
+		\begin{tabular}{|M{3.5cm}|M{4.5cm}|}
+		 $ \theta (\pm 1^o) $ & $ I(\pm 0.2\cdot 10^{-1}mA  $)  \\ 
+		 \hline
+		0  &  0.0\\
+		10 &  0.2\\
+		20 &  1.0\\ 
+		30 &  2.4\\ 
+		40 &  4.4\\ 
+		50 &  6.2\\ 
+		60 &  7.2\\ 
+		70 &  8.6\\ 
+		80 &  9.2\\ 
+		90 &  9.6\\ 
+		100 &  9.2\\ 
+		110 &  8.4\\ 
+		120 &  7.4\\ 
+		130 &  6.2\\ 
+		140 &  4.2\\ 
+		150 &  2.4\\ 
+		160 &  0.8\\ 
+		170 &  0.2\\ 
+		180 &  0.0\\ 
+	\end{tabular} 
 	\end{ruledtabular}
 \end{table}
 
+Dado que no debemos cuantificar nada, lo único que resta hacer es una gráfica de los puntos comparada con la gráfica teórica de la relación de la ecuación \ref{eq:polarizador}. Cabe resaltar que la escala angular estaba desfasada un valor de $90^o$ y los datos se tomaron con esta escala. En otras palabras, en $0^o$, el receptor y el emisor tenían polarizaciones perpendiculares. Para graficar los datos con la relación es necesario tener en cuenta este desfase. Esta gráfica se puede apreciar en la figura \ref{fig:polarizer11}. \\
 
 
-En la susodicha figura \ref{fig: angles} se puede observar que la radiación presenta máximos relativamente alejados de la posición $0^o$, los cual es un clara consecuencia de la presencia del campo magnético, puesto que su acción consiste precisamente en derviar un cierto ángulo las partículas radiadas. No obstante, es inusual que los máximos en ambos casos se presenten hacia el mismo "lado", esto porque al cambiar la disposición de los imanes se está invirtiendo el campo magnético y por ende se está modificando la dirección en la cual las partículas son desviadas en otra dirección. Dicho comportamiento anómalo puede ser explicado nuevamente por el hecho de que otros grupos también estuvieran trabajando con radio en el momento de tomar las medidas.\\
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{polarizer11}
+	\caption{Intensidad contra ángulo de polarización}
+	\label{fig:polarizer11}
+\end{figure}
 
-Allende de lo anterior, es preciso mencionar que cuando se interpone un campo magnético entre el contador y la muestra, el máximo del conteo de radiacón en función del ángulo se mueve de la posición $0^o$ (su posición natural) debido a que el campo magnético desvía las partículas radiadas. Sin embargo algunas partículas altamente energéticas no se ven afectadas por el campo y generan nuevamente un pico en la posición natural. Si se aumenta la intensidad del campo magnético, el pico a cero grados desaparece puesto que son pocas las partículas que logran atravesar el campo interpuesto.
+En esta figura se puede apreciar la gran correlación de la relación de interferencia con los datos obtenidos. Eso se lo podemos atribuir a la simplicidad del montaje, que no contaba con otros elementos que provocaran fuentes de error además de los necesarios emisor y receptor.\\
 
-
-
-\subsection{Radiación gamma en un campo magnético}
-
-El objetivo de este experimento es determinar si la radiación gama se ve afectada o no por campos magnéticos. El montaje propuesto consiste en interponer entre el radio y el contador una placa de plomo lo suficientemente gruesa de tal forma que solo pase la radiación gamma y tomar datos de conteos con y sin imanes entre la muestra y el contador.\\
-
-Los datos obtenidos se muestran en la tabla \ref{tabla11}.
+En segunda instancia, medimos esta misma curva de intensidad contra ángulo de polarización preparando el emisor y receptor en direcciones de polarización paralela, esta vez, superponiendo un polarizador metálico en el medio al cual se variaba su dirección de polarización. En este caso, dada la polarización intrínseca del emisor y el receptor, esto equivale a un montaje con dos polarizadores, por lo que la ecuación que aplica aquí es la \ref{eq:polarizador2}. Debido a que tenemos al emisor y al receptor preparados en ángulos paralelos, para aplicar la ecuación, tendremos la condición $\theta_2 = 0$. Dicha ecuación tendrá entonces una dependencia de $\cos^4{(\theta_1)}$. Cabe resaltar que esta vez se cambió el ángulo del polarizador de metal manualmente sin tener una escala angular de referencia, por lo que los errores de ángulo pueden ser bastante grandes. Los datos obtenidos en este experimento se encuentran entonces en la tabla \ref{table:polarizador2} y la gráfica de los datos y su respectiva relación funcional se encuentran expuestas en la gráfica \ref{fig:polarizador22}. \\
 
 \begin{table}[h!]
-	\caption{\label{tabla11}Conteos de radiación gamma.}
+	\caption{\label{table:polarizador2}Intensidad de polarización a diferentes ángulos.\\ Emisor-Receptor en orientación paralela}
 	\begin{ruledtabular}
-		\begin{tabular}{|M{2.7cm}|M{2.7cm}|M{2.7cm}|}
-			Medición $\#$ & Imán-Plomo / 10 s & Plomo / 10 s\\
-			\hline
-			1 & 77 & 85 \\\hline
-			2 & 98 & 78 \\\hline
-			3 & 76 & 99 \\\hline
-			4 & 81 & 101 \\\hline
-			5 & 79 & 83 \\\hline
-			Promedio & 81.8 & 89.2\\
-		\end{tabular}
+	\begin{tabular}{|M{3.5cm}|M{4.5cm}|}
+		$ \theta (\pm 5^o) $ & $ I(\pm 0.2\cdot 10^{-1}mA  $)  \\ 
+		\hline
+		0  &  7.8\\
+		22.5 &  6.0\\ 
+		45 &  2.2\\ 
+		67.5 &  0.4\\ 
+		90 &  0.0\\ 
+	\end{tabular}  
 	\end{ruledtabular}
 \end{table}
 
-El error de los datos de la columa "Plomo" fue de $s = 9.36$ conteos / 10 s, y al comparar con el promedio de la columna "Imán-Plomo" vemos que el valor $81.9$ está dentro del error $s$ calculado. Dado lo anterior podemos concluir que las partículas que componen la radiación gamma no poseen carga eléctrica puesto que no se ven afectadas por campos magnicos perpendiculares a su trayectoria, además de verificar nuevamente que el plomo bloquea completamente la radiación beta.\\
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{polarizer22}
+	\caption{Intensidad contra ángulo de polarización \\ Emisor-Receptor en orientación paralela}
+	\label{fig:polarizador22}
+\end{figure}
 
-\subsection{Variación de la intensidad de radiación con el tiempo}
+En esta gráfica se puede apreciar otra vez la buena dependencia predicha por la respectiva relación de intensidad dada por la respectiva ecucación. La curva entra en general en el rango dado por los errores, sin embargo, es preciso decir que dichos errores están siendo de todas maneras subestimados, especialmente el del la medición de intensidad, la cual variaba mucho con perturbaciones físicas de la mesa o ambientales electromagnéticas.\\
 
-La idea de este experimento es confinar algunas partículas emitidas por una fuente radioactiva en un recipiente para examinar su decaimiento en el tiempo.
-
-Los datos obtenidos se mustran en la tabla \ref{tabla12}.
+En última instancia, para el experimento de polarización, preparamos el emisor y el receptor en estados con dirección de polarización perpendicular. De la misma manera superpusimos un polarizador metálico al que variábamos su ángulo de polarización. En este caso, la ecuación que gobierna la curva de intensidad contra el ángulo de orientación de polaridad, es la misma ecuación \ref{eq:polarizador2}. Sin embargo, dada la perpendicularidad de las direcciones del emisor y el receptor, la condición aca es $\theta_2 = 90^o$. Así, la relación mencionada queda proporcional a $\left(\sin{(\theta_1)}\cos{(\theta_2)}\right)^2$. Los datos obtenidos se encuentran en la tabla \ref{table:polarizador3}.\\
 
 \begin{table}[h!]
-	\caption{\label{tabla12}Conteos de radiación gamma.}
+	\caption{\label{table:polarizador3}Intensidad de polarización a diferentes ángulos con  el emisor-receptor en orientación perpendicular}
 	\begin{ruledtabular}
-		\begin{tabular}{|M{2.7cm}|M{2.7cm}|}
-			Segundos & Conteo\\
-			\hline
-			60  & 44 \\\hline
-			120 & 39 \\\hline
-			180 & 38 \\\hline
-			240 & 29 \\\hline
-		\end{tabular}
+	\begin{tabular}{|M{3.5cm}|M{4.5cm}|}
+		$ \theta (\pm 5^o) $ & $ I(\pm 0.2\cdot 10^{-1}mA  $)  \\ 
+		\hline
+		0  &  0.0\\
+		45 &  2.4\\ 
+		90 &  0.0\\ 
+	\end{tabular} 
 	\end{ruledtabular}
 \end{table}
 
-Se puede observar de forma clara que la intensidad de la radiación disminuye con el tiempo. No obstante, es importante resaltar que las medidas no son totalmente confiables puesto que no difieren mucho del conteo usual del aire. Esto puede ser explicado por múltiples fuentes de error en este experimento, entre ellas el hecho de que el contador no se ajustara perfectamente al recipiente proporcionado y el hecho de que posiblemente el inyector que se tomó tuviera deteriorada la manta radioactiva en su interior. 
+En este caso se tomaron únicamente 3 datos que verifican de una buena manera la relación intensidad contra los ángulos de polarización. En este caso podemos ver que cuando pusimos el polarizador metálico a $0^o$ y a $90^o$ no se detectó señal en el emisor. Esto se debe a que en un caso $\sin{(\theta_1) }= 0$ y en el otro caso $\cos{(\theta_1)} = 0$. Esto confirma indirectamente la ecuación \ref{eq:polarizador2}. En el caso de $45^o$, ninguno de los elementos se cancela, por lo cual obtuvimos un resultado no nulo que también confirma la ya mencionada ecuación.
 
-\subsection{Back-scattering de la radiación beta}
+\subsection{Interferencia a Doble Rendija}
+En este experimento cuantificamos el patrón de interferencia del experimento de doble rendija variando dos veces la distancia entre las rendijas. En primera instancia usamos una distancia de separación $d_1= 10.5cm$ para lo cual obtuvimos un buen patrón de interferencia. En segunda instancia, separamos las rejillas una distancia $d_2 = 7.4cm$, y debido a la relación en la ecuación \ref{eq:interferencia}, los mínimos de interferencia estaban más separados por lo que el patrón se veía más difuso.  Los datos obtenidos se encuentran en la tabla \ref{table:inter}.
 
-La radiación "reflejada" por un cierto material, puede ser utilizada para identificar diversos tipos de materiales. Precisamente el objetivo de este experimento es caracterizar dicha reflección con los materiales disponibles en el laboratorio.\\
-
-El montaje experimental consiste en ubicar el radio y el contador en un ángulo de $60^o$ entre sí, y tomar datos sobre los conteos registrados. Los datos obtenidos se muestran en la tabla \ref{tabla13}.
 
 \begin{table}[h!]
-	\caption{\label{tabla13}Conteos de back-scattering de la radiación beta.}
+	\caption{\label{table:inter}Patrón de interferencia para $d_1$ y $d_2$}
 	\begin{ruledtabular}
-		\begin{tabular}{|M{1.5cm}|M{1.5cm}|M{1.5cm}|M{1.5cm}|M{1.5cm}|}
-			Material & $C_{1}$ / 10 s & $C_{2}$ / 10 s & $C_{3}$ / 10 s & $\bar{C}$ / 10 s\\
-			\hline
-			Aire & 382 & 411 & 407 & 400\\\hline
-			Plomo & 783 & 729 & 805 & 772.33\\\hline
-			Aluminio & 480 & 479 & 531 & 496.66\\\hline
-			Metal no id. & 526 & 522 & 543 & 530.33\\
-		\end{tabular}
-	\end{ruledtabular}
+	\begin{tabular}{|M{2.5cm}|M{2.5cm}|M{2.5cm}|}
+		$ \theta (\pm 3^o) $ & $ I_1(\pm 0.2\cdot 10^{-1}mA  $) &$ I_2(\pm 0.2\cdot 10^{-1}mA)  $  \\ 
+		\hline
+		0  &  10.0 & 10.0\\
+		5  &  4.4 & 4.0\\
+		10 &  0.1 & 0.8\\
+		15 &  2.0 & 0.2\\
+		20 &  3.0 & 1.0\\ 
+		25 &  2.0 & 1.2\\ 
+		30 &  0.2 & 0.2\\ 
+		35 &  1.0 & 0.0\\ 
+		40 &  0.4 & 0.0\\ 
+		45 &  0.2 & 0.2\\ 
+		50 &  0.4 & 0.4\\ 
+		55 &  0.2 & 0.2\\ 
+		60 &  0.2 & 0.0\\ 
+		65 &  0.0 & 0.0\\ 
+		70 &  0.0 & 0.0\\ 
+		75 &  0.2 & 0.0\\ 
+		80 &  0.0 & 0.0\\ 
+		85 &  0.0 & 0.0\\ 
+	\end{tabular} 
+	\end{ruledtabular} 
 \end{table}
- 
-Nuevamente, la mayor intensidad fue registrada para el plomo dado que este material es muy efectivo para bloquear la radiación beta. Es importante mencionar que las mediciones eran muy sensibles ante pequeñas variaciones en las distancias tanto de la muestra como del contador, por tanto se tuvieron que repetir algunas mediciones que eran inconsistentes con respecto a los demás datos. Además,dada la cercanía entre los últimos dos datos se puede concluir que potencialmente el metal no identificado era aluminio ligeramente más grueso que la muestra anterior.
 
-\subsection{Usos alternos de la radiación beta}
+En este caso se escogieron $3^o$ como error absoluto en la medida del ángulo, porque experimentalmente, en este rango, el receptor arrojaba señales muy similares.\\
 
-Una característica notable sobre la radiación $\beta$ es que cambia  su intensidad de acuerdo a la cantidad de material que hay en un recipiente que bloquea la radiación. De esta manera se puede determinar qué tan lleno está un recipiente que no se puede observar. Usando el montaje mostrado en la figura \ref{fig: lleno}, se trató de determinar qué tan lleno estaba un tubo proporcionado en el laboratorio.\\
+Una buena manera de proceder en este análisis de datos sería hacer un ajuste funcional de los datos teniendo en cuenta que estos deberían cumplir la ecuación de difracción de Fraunhofer superpuesta con la ecuación de intensidad para doble rendija, y luego mirar los mínimos de acuerdo al ajuste. Sin embargo, este ajuste no logró ser realizado con precisión. Una de las razones la falla del ajuste es que la ecuación para intensidad en términos del ángulo tiene una dependencia funcional de $\frac{\sin{(\alpha \theta)}}{\alpha\theta}$ lo cual tiene complicaciones numéricas alrededor de $\theta= 0$. Otra de las razones para la falla del ajuste, es que para poder aplicar la relación de interferencia, se necesita que los caminos de las ondas sean muy similares para que la diferencia de intensidades en el punto de interferencia sea despreciable. Esto se cumple cuando se mira el patrón de interferencia a una distancia $D$ mucho mayor que la separación de las rendijas $d$, lo cual no se cumplía para nuestro experimento. Por esto, se procedió a encontrar los mínimos del patrón de interferencia manualmente para mirar cómo cumplen la relación de interferencia dada por la ecuación \eqref{eq:interferencia}.\\
 
+Los datos pueden ser apreciados de manera más gráfica en las figuras \ref{fig:inter1} y \ref{fig:inter2}.
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{inter1}
+	\caption{Patrón de interferencia para $d_1 = 10.5cm$}
+	\label{fig:inter1}
+\end{figure}
 
-Los datos obtenidos se muestran en la tabla \ref{tabla14}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{inter2}
+	\caption{Patrón de interferencia para $d_2 = 7.4cm$}
+	\label{fig:inter2}
+\end{figure}
+
+De aquí se pueden deducir manualmente los primeros  tres mínimos de cada partrón, los cuales están dados por la tabla \ref{table:minimos}. Para los mínimos de orden mayor, el patrón de interferencia se vuelve muy ténue, y a falta de un ajuste, los mínimos ya no pueden ser determinados manualmente.\\
+
 
 \begin{table}[h!]
-	\caption{\label{tabla14}Conteos usando un recipiente como bloqueo.}
+	\caption{\label{table:minimos} Mínimos de interferencia para $d_1$ y $d_2$}
 	\begin{ruledtabular}
-		\begin{tabular}{|M{4.5cm}|M{4.5cm}|}
-			Altura (cm) & $C$ / 10 s \\
-			\hline
-			1 & 1860 \\\hline
-			2 & 1776 \\\hline
-			3 & 1880 \\\hline
-			4 & 1934 \\\hline
-			5 & 1849 \\\hline
-			6 & 1872 \\\hline
-			7 & 1881 \\
-		\end{tabular}
+	\begin{tabular}{|M{2.5cm}|M{2.5cm}|M{2.5cm}|}
+	 $n $ & $ \theta_1 (\pm 3^o) $ & $ \theta_2 (\pm 3^o) $ \\ 
+		\hline
+		1 & 10 & 15 \\
+		2 & 30 & 35 \\
+		3 & 45 & 60 \\
+	\end{tabular} 
 	\end{ruledtabular}
 \end{table}
 
-Dado que todas las medidas son muy cerrcanas entre sí podemos concluir que el tubo proporcionado esta vacío, y esto se comprobó puesto que al teminar las medidiciones de destapó dicho recipiente y se verfició que no contenía nada en su interior. Por faltta de tiempo no se tomaron medidas con otros recipientes.
+Si se toma el $\sin{\theta}$ para cada mínimo y se grafican los valores de la tabla anterior, se puede apreciar la relación lineal dada por la ecuación \eqref{eq:interferencia}. Esta gráfica puede ser ajustada linealmente y los resultados se aprecian en  la gráfica \ref{fig:inter3}.\\
 
-\subsection{Radiación beta y hojas de papel}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{inter3}
+	\caption{Relación de interferencia para $d_1$ y $d_2$}
+	\label{fig:inter3}
+\end{figure}
 
-El montaje experimental utilizado en este último experimento es análogo al mostrado a la figura \ref{fig: angles} tan solo que esta vez se hacía incidir la radiación sobre múltiples capas de papel.\\
+De este ajuste lineal es importante notar que los valores de corte con el eje y son muy pequeños, como es esperado de una relación lineal como la ecuación \ref{eq:interferencia}. Además de esto, se puede obtener un estimado del error en la pendiente, dado por el ajuste. En este sentido, el valor de pendiente  en cada caso está dado por $m_1 = 0.2667 \pm 0.034$ y $m_2 = 0.300 \pm 0.006$. \\
 
-La última aplicación posible del uso de radiación para la caracterización de materiales es que se puede detectar su grosor. Se realizó una calibración con la radiación detectada para distintos grosores de papel logrados al sobreponer múltiples hojas de papel una sobre la otra. Los datos obtenidos se muestran en la tabla \ref{tabla15}.\\
+Finalmente, para sacar el estimado de longitud de onda en cada caso solo es necesario multiplicar por las respectivas distancias $d_1$ y $d_2$. En este caso, teniendo en cuenta que el error asociado a cada medida de distancia es de $0.1cm$, haciendo la respectiva propagación de error, obtenemos las longitudes de onda dadas por $\lambda_1 = 2.79 \pm 0.36cm$ y $\lambda_2 = 2.22 \pm 0.05cm$.\\
+
+De estos valores, es importante notar que respecto al valor teórico de $\lambda$, el primero cae en el rango de error y el segundo no. Esto se debe a la difusión del segundo patrón antes mencionado y al error humano introducido por la determinación manual de los mínimos de interferencia, lo cual era más dificil de determinar en dicho patrón. Por otra parte, los errores relativos al valor teórico están dado por $2.1\%$ y $22.1\%$ respectivamente.
+
+
+\subsection{Ondas estacionarias}
+En este experimento tomamos el valor de longitud de onda de las microondas generadas por el emisor midiendo la distancia de separación de un número determinado de máximos de señal de onda estacionaria usando el mismo receptor como reflector parcial. Replicamos este experimento variando el número de máximos medidos, y los resultados, con sus respectivos errores, se encuentran en la tabla \ref{table:estacionaria}.
 
 \begin{table}[h!]
-	\caption{\label{tabla15}Conteos de la radiación beta incidiendo sobre mpultiples hojas de papel.}
+	\caption{\label{table:estacionaria}Máximos de ondas estacionarias}
 	\begin{ruledtabular}
-		\begin{tabular}{|M{1.5cm}|M{1.5cm}|M{1.5cm}|M{1.5cm}|M{1.5cm}|}
-			$\#$ de hojas & $C_{1}$ / 60 s & $C_{2}$ / 60 s & $C_{3}$ / 60 s & $\bar{C}$ / 60 s\\
-			\hline
-			1 & 2569 & 2599 & 2541 & 2569.66\\\hline
-			2 & 2666 & 2607 & 2637 & 2636.66\\\hline
-			3 & 2680 & 2710 & 2735 & 2708.33\\\hline
-			5 & 2712 & 2788 & 2681 & 2727\\\hline
-			8 & 2693 & 2777 & 2658 & 2709.33\\\hline
-		\end{tabular}
+	\begin{tabular}{|M{2.cm}|M{2.cm}|M{2.cm}|M{2.cm}|} 
+		$N Maximos$& $x_0(cm) \pm 0.1cm$ & $x_f(cm) \pm 0.1cm$ & $\lambda_{exp} (cm)$ \\
+		\hline
+		20 & 56 & 27.1 & 2.890 $\pm$ 0.01\\
+		30 & 56 & 9.9 & 3.073 $\pm$ 0.006\\
+	\end{tabular}
+	\end{ruledtabular}	
+\end{table}
+
+Aquí, dado que la relación es lineal, y al igual que el experimento de Fabry-Perot y de Michelson, está dada por la ecuación \ref{eq:Michelson}, los errores tomados para los valores de la longitud de onda $\lambda$ fueron tomados con esta misma ecuación teniendo en cuenta únicamente el error aportado por el límite de resolución de la regla utilizada.\\
+
+Los errores absolutos asociados a la medición son muy  pequeños, pero esto se debe a que no pudimos cuantificar la fuente más importante de error en este experimento, la cual provenía del receptor. En este caso determinar un máximo o un mínimo en la escala de intensidad analógica del receptor era muy difícil dado que este instrumento era muy sensible y tenía muchas fluctuaciones. Estas fluctuaciones se pueden deber a la contaminación electromagnética ambiental, o que a veces, nuestros mismos cuerpos podían actuar como reflectores y afectar la medición. Además, la mesa no era tan lisa para poder mover el espejo conductor de una manera suave que no perturbara la aguja de la medida.\\
+
+El valor teórico de la longitud de onda emitida por estos instrumentos está dado por $\lambda_{teo} = 2.857 cm$, por lo que podemos deducir que el error relativo a la medida de $\lambda$ en cada caso, está dado por $0.5\%$ y $7.7\%$. De estos resultados es interesante notar que la medida que debía dar menor error relativo (la de 30 máximos) debido al poco error absoluto, dio mayor error. Esto se debe principalmente a que a medida que se alejaba el receptor, la onda tenía que viajar más y perdía intensidad, por lo que los máximos y mínimos se hacían cada vez más difíciles de distinguir. En un punto alejado donde la señal de los instrumentos es baja, las fuentes de error anteriormente mencionadas se tornan más influyentes.
+
+\subsection{Espejo de Lloyd}
+En este experimento medimos indirectamente la longitud de onda de las microondas al medir directamente la distancia entre distintos máximos de interferencia en el montaje del espejo de Lloyd. En este caso, hicimos dos réplicas del experimento, cuyas especificaciones se encuentran en la tabla \ref{table:Lloyd}.
+
+\begin{table}[h!]
+	\caption{\label{table:Lloyd}Máximos en el espejo de Lloyd}
+	\begin{ruledtabular}
+		\begin{tabular}{|M{2.cm}|M{2.cm}|M{2.cm}|M{2.cm}|}
+		$N Maximos$& $x_0(cm) \pm 0.1cm$ & $x_f(cm) \pm 0.1cm$ & $\lambda_{exp} (cm)$ \\ 
+		\hline
+		10 & 10 & 41.5 & 2.78 $\pm$ 0.02\\
+		8 & 11.2 & 39.1 & 2.64 $\pm$ 0.02\\
+	\end{tabular}
 	\end{ruledtabular}
 \end{table}
 
-Dado a que no hay variaciones significativas a medida que se aumenta el número de hojas, podemos decir que el grosor de las mismas no es lo suficiente para que las mediciones sean confiables. Además, el papel utilizado no era completamente blanco, por lo cual el constituyente de la tinta con la que fue impreso dicho papel pude haber afectado fuertemente las mediciones realizadas.
+Para cada caso se tomaron dos valores de distancia de separación perpendicular y se tomó su diferencia. Esto es equivalente a usar dos veces la ecuación \ref{eq:Lloyd} para distintos valores de $d$ y dejarla en términos de la diferencia de dos enteros, es decir, otro entero que representa el número de máximos entre las dos posiciones. Los errores puestos en la tabla fueron estimados con propagación de error y son del mismo orden de magnitud, dado que no se cambió mucho la réplica.\\
 
-\section{\label{conclusiones}Conclusiones}
+Si comparamos con el valor teórico, podemos obtener los errores relativos. Estos son del $2,6\%$ y del 
+$7.5\%$. En este caso, el experimento tiene las mismas fuentes de error que el experimento de las ondas estacionarias, y además, añadimos, o más bien le damos mayor importancia a la disminución de la amplitud reflejada en el espejo que hace que no pueda ser bien comparada con la que va directamente hacia el receptor. Esto modifica un poco la relación para la interferencia destructiva y provoca error. Además debemos decir que debido a que la relación de interferencia era no lineal, a medida que alejabamos el espejo, la distancia entre los máximos se reducía cada vez más, y esto, junto a la disminución de la amplitud, dificultaba en gran medida la determinación y el conteo de dichos máximos. A pesar de todo, para este montaje complicado, los errores no fueron exagerados.
+
+\subsection{Interferómetro de Fabry-Perot}
+El experimento de Fabry-Perot es muy similar al de las ondas estacionarias, sin embargo, esta vez usamos reflectores parciales en vez del propio receptor como espejo. En este caso, la relación de interferencia es igual a la de ondas estacionarias y a la del interferómetro de Michelson. Se procedió de la misma manera en que se procedió en los experimentos de determinación de longitud de onda pasados. Los datos obtenidos se encuentran consignados en la tabla \ref{table:Fabry}.\\
+
+\begin{table}[h!]
+	\caption{\label{table:Fabry}Máximos en el interferómetro de Fabry-Perot}
+	\begin{ruledtabular}
+		\begin{tabular}{|M{2.cm}|M{2.cm}|M{2.cm}|M{2.cm}|}
+		$N Maximos$& $x_0(cm) \pm 0.1cm$ & $x_f(cm) \pm 0.1cm$ & $\lambda_{exp} (cm)$ \\ [0.5ex] 
+		\hline
+		10 & 55.3 & 41.0 & 2.86 $\pm$ 0.005\\
+		10 & 39.5 & 25.5 & 2.82 $\pm$ 0.005\\
+	\end{tabular}
+	\end{ruledtabular}
+\end{table}
+
+Debido a que la relación aquí es lineal, aplicamos esta relación a los errores también, y obtuvimos de igual manera errores muy pequeños debido a que no era posible cuantificar las otras fuentes de error. El error relativo de estas medidas con respecto al valor experimental están dados por $0.1\%$ y $1.2\%$. Estas medidas de error son muy pequeñas debido a la sencillez del montaje y a la relación lineal que lo gobierna. En este caso, la señal recibida era muy clara y a pesar de las fluctuaciones de la aguja por diferentes factores, se pudo determinar con gran precisión los máximos y mínimos de interferencia. El uso de reflectores parciales planos en vez de la trompa del receptor como espejos disminuyó en gran medida el error. \\
+
+\subsection{\label{sec:level2}Interferómetro de Michelson}
+Este experimento es análogo al de Fabry-Perot, solo que para evitar confusiones, las ondas que interfieren se hacen tomar caminos perpendiculares. En este caso procedimos de igual manera que en el experimento de Fabry-Perot y de los demás experimentos de interferometría. Los datos obtenidos en este caso se encuentran en la tabla \ref{table:Michelson}.\\
+
+\begin{table}[h!]
+	\caption{\label{table:Michelson}Máximos en el interferómetro de Michelson}
+	\begin{ruledtabular}
+		\begin{tabular}{|M{2.cm}|M{2.cm}|M{2.cm}|M{2.cm}|}
+		$N Maximos$& $x_0(cm) \pm 0.1cm$ & $x_f(cm) \pm 0.1cm$ & $\lambda_{exp} (cm)$ \\ [0.5ex] 
+		\hline
+		10 & 43.0 & 28.7 & 2.86 $\pm$ 0.005\\
+		10 & 45.7 & 31.5 & 2.84 $\pm$ 0.005\\
+	\end{tabular}
+	\end{ruledtabular}
+\end{table} 
+
+Los errores relativos asociados a estos experimentos son $0.1\%$ y $0.5\%$, lo cual era de esperarse, pues se trata de un experimento muy análogo al de Fabry-Perot.\\
+
+\section{Conclusiones}
 
 \begin{itemize}
-	\item La radiación es un fenómeno natual que los seres vimos toleramos constantemente en la vida cotidiana.
+	\item Durante la práctica se evidenció que la configuración del montaje es muy importante para la obtención de resultados, mucho más que en otras pácticas de laboratorio. Para una misma medición en un mismo montaje, el error relativo podía variar entre 0.3\% y 10\% con sólo cambios menores y ajustes pequeños. Esto se debe principalmente a los factores ya mencionados que afectaban la aguja del medidor y por tanto la medida. Además, en varios montajes, debido a que el equipo es bastante grande, la mesa en varios casos se quedaba pequeña.
 	
-	\item Múltiples materiales pueden bloquear diversos tipos de radiación, entre ellos el papel, el aluminio y el plomo. No obstante, el papel solo bloquea la radiación alfa, el plomo bloquea la radiación alfa y beta, y ninguno de los materiales proporcionados en el laboratorio pudo bloquear la radiación gamma.
+	\item Se comprobaron cuantitativamente y cualitativamente los fenómenos ondulatorios de las microondas con éxito. Los fenómenos de refracción, reflexión, interferencia, difracción y polarización se pudieron apreciar con claridad. La determinación de la longitud de onda se pudo realizar con mucha exactitud en todos los casos y la fibra óptica demostró varios de sus fenómenos característicos y su utilidad en aplicaciones modernas.
 	
-	\item El radio es una fuente radioactiva de ata intensidad y se deben tomar todas las precacuciones necesarias a la hora de manipularlo, tales como no tocarlo directamente con las manos y sacarlo de cun contenedor única y exclusivamente el tiempo necesario para tomar datos.
+	\item Cabe notar que la base del experimento es fundamental, la mesa en varias ocasiones se movía y el detector era tan sensible que la aguja cambiaba su posición con pequeños agitaciones de la mesa. De la misma forma, como se requería en muchos experimentos mover los detectores para estudiar el comportamiento de las ondas a diferentes distancias, la aguja podía moverse con el movimiento de la mesa cuasado por la fricción entre el detector y la mesa misma.
 	
-	\item Minerales radioactivos como la columbita pueden producir diversos tipos de radiación de baja intensidad. Y no solo la columbita sino también la manta incandescente y el radio, emitían los tres tipos de radiación más conocidos, a saber, radiación alfa, beta y gamma.
+	\item Las aproximaciones hechas para los modelos en ocasiones no se cumplían. Esto se pudo ver claramente en el experimento de difracción, donde, para apreciar el patrón, se debería cumplir que la distancia entre rejillas sea mucho menor a la distancia de la fuente con el detector. Esto no se cumplía puesto que la mesa era demasiado corta para tal propósito.
 	
-	\item El back scattering de radiación por un material determinado puede ser utilizado para la caracterización de un material determinado.
+	\item A pesar de las fuentes de error mencionadas previamente, el laboratorio resultó ser de gran utilidad en términos académicos. El equipo empleado es fácil de manipular y los fenómenos ondulatorios pueden percibirse con poca distorsión proveniente de todas las fuentes de error mencionadas. 
 	
-	\item El campo magnético afecta la trayectoria de las ciertas partículas emitidas por fuentes radioactivas. En particular, en el experimento \textit{Radiación gamma en un campo magnético} pudimos verificar que las partículas que constituyen la radiación gamma no poseen carga eléctrica. Esto permite verificar, a su vez, la caracterización de este tipo de radiación hecha en la sección  \textbf{INTRODUCCIÓN} 
-	
-	\item Si bien, el scattering de partículas radioactivas permite determinar el grosor de materiales, las mediciones realizadas en el experimento no arrojaron resultados significativos con respecto al número de hojas de papel utilizadas .
 \end{itemize}
 
 \begin{thebibliography}{99}
 \
 \\
-\bibitem{guia} Guía \textit{Radioactividad} proporcionada para el desarrollo del laboratorio.\\
-\bibitem{hyperphyisics} Informacion consultada en http://hyperphysics.phy-astr.gsu.edu/hbase/nuclear/radact.html.\\
-\bibitem{wikipedia} Información consultada en https://en.wikipedia.org/wiki/Radioactive\_decay.\\
+\bibitem{guia} Guía \textit{Microwave Optics} proporcionada para el desarrollo del laboratorio.\\
+\bibitem{Griffiths} David J. Griffiths,{\it Introduction to electrodynamics 4Ed.}\\ 
 \bibitem{error} Taylor, J.R., \textit{An Introduction to Error Analysis}. University Science Books, Sausalito, California. 2nd edition, 1982.\\
 \end{thebibliography}
 
