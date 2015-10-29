@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{\IeC {\textquestiondown }Qu\IeC {\'e} es la estructura fina?}{3}{0}{1}
+\beamer@sectionintoc {2}{Trabajos previos}{3}{0}{2}
+\beamer@sectionintoc {3}{Montaje experimental}{3}{0}{3}
+\beamer@subsectionintoc {3}{1}{Epectr\IeC {\'o}metro ESPARTACO}{3}{0}{3}
+\beamer@sectionintoc {4}{Resultados experimentales}{3}{0}{4}
+\beamer@subsectionintoc {4}{1}{Sodio}{3}{0}{4}
+\beamer@subsectionintoc {4}{2}{Hidr\IeC {\'o}geno}{3}{0}{4}
+\beamer@subsectionintoc {4}{3}{Deuterio}{3}{0}{4}
+\beamer@sectionintoc {5}{Perspectivas futuras}{3}{0}{5}
