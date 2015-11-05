@@ -1,55 +1,21 @@
-\frametitle{Resultados experimentales - Hidrógeno - Deuterio}
+\frametitle{Perspectivas futuras}
 
-	Fit lineal de los datos: $y = 7.65\cdot 10^-3 x + 586.77$,   $r^2 = 0.999971225$
-	\
-	\\
+\begin{itemize}
+\item Verificar la proporcionalidad a $(Z\alpha^2)$.
+\
+\\
 
-	\
-	\\
+\
+\\
 
-	Separación en pixeles Hidrógeno: $3$
-	\
-	\\
+\item Realizar mediciones para otros gases, entre ellos, helio, cadmio, mercurio y zinc.
+\
+\\
 
-	\
-	\\
+\
+\\
 
-	Separación en pixeles Deuterio: $4$
-	\
-	\\
+\item Realizar nuevamente las mediciones para hidrógeno y deuterio con el fin de reducir los errores porcentuales obtenidos.
 
-	\
-	\\
-
-	Separación en longitud de onda Hidrógeno: $0.008\ nm$
-	\
-	\\
-
-	\
-	\\
-
-	Separación en longitud de onda Deuterio: $0.012\ nm$
-	\
-	\\
-
-	\
-	\\
-
-	Separación teórica: $ 0.016\ nm$
-	\
-	\\
-
-	\
-	\\
-
-	Error porcentual Hidrógeno: $ 43.9\% $
-	\
-	\\
-
-	\
-	\\
-
-	Error porcentual Deuterio: $ 25.2\% $
-
-
+\end{itemize}
 
